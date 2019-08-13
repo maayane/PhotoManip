@@ -38,6 +38,8 @@ Before running anything, you first need to define the path of a directory where 
 
 ### Convert a mag (AB) value in a given band into a flux value.
 
+`PhotoManip` does that using synthetic photometry, in a way similar to the (great) [Pyphot](http://mfouesneau.github.io/docs/pyphot/) package by Morgan Fouesneau.
+
 ```python
 >>> mag_value=20.55 #this is the magAB  value to convert
 >>> flux=PhotoManip_fun.magAB_in_filter_to_flux_in_filter(mag_value,Filter_vector=np.array([['swift','UVW2']]),filters_directory=filters_directory,verbose=False)
@@ -94,7 +96,7 @@ The red points shwon on the plot are the points which will be used for the fit.A
   <img src="./PhotoManip/test/results_tref_calculator_from_P48R/lc_and_rising_piece.png" width="350">
 </p>
 
-It will the run mcmc to model the rising chunk with both a concave exponent and a power law, output plots and summarize the results for you:
+It will then run mcmc (using the [emcee](https://emcee.readthedocs.io/en/stable/) package) to model the rising chunk with both a concave exponent and a power law, output plots and summarize the results for you:
 ```python
 **********************************************************
 ****** SUMMARY OF tref CALCULATION WITH BOTH MODELS ******
