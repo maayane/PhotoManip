@@ -109,6 +109,10 @@ the best fit is obtained with the exponential, i.e. tref=2458350.876016173
 
 All plots can be found in the `results_tref_calculator_from_P48R` directory (or `results_tref_calculator_from_P48G` depending on the band you chose).
  
+<p align="center">
+  <img src="./PhotoManip/test/results_tref_calculator_from_P48R/power/2D-distributions.png" width="350">
+  <img src="./PhotoManip/test/results_tref_calculator_from_P48R/exp/best_fit.png" width="350">
+</p>
 
 ## Give it a try with the test data!
 

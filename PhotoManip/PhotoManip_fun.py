@@ -902,7 +902,7 @@ def tref_from_P48(path_to_data, tref_assumed=None, band='r',days_rising=10):
 
     print('***************************************************')
     print('******* IMPORTANT CHECK BEFORE YOU PROCEED ********')
-    print('The red points shwon on the plot are the points which will be used for the fit.'
+    print('The red points shown on the plot are the points which will be used for the fit.'
           'Adjust the "days_rising" parameter of Photomanip_fun.tref_from_P48, untill the red points cover all (and do not go beyond) the rising part of the light curve!' )
     print('***************************************************')
 
@@ -999,7 +999,7 @@ def tref_from_P48(path_to_data, tref_assumed=None, band='r',days_rising=10):
     n_assumed = 0.5
     if tref_assumed==None:
         tref_assumed = np.min(data_P48_rise['days'])
-    prior_a = np.array([1e-19, 1e-15])
+    prior_a = np.array([1e-18, 1e-15])
     prior_n = np.array([0, 1])
     # prior_tref=np.array([tref_assumed-20,tref_assumed+1])
 

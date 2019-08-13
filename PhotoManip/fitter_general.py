@@ -364,16 +364,16 @@ def calc_best_fit_n_param(ndim,model_nparam,flatchain_path,data,uncertainties,wi
         pylab.title(r'sorted $\chi^2$ values in the chain {0}'.format(flatchain_path))
         pylab.xlabel('index')
         pylab.ylabel('$\chi^2$')
-        pylab.savefig(output_file_path + '/all_chis_plot.pdf', facecolor='w', edgecolor='w', orientation='portrait',
-                      papertype=None, format='pdf',
+        pylab.savefig(output_file_path + '/all_chis_plot.png', facecolor='w', edgecolor='w', orientation='portrait',
+                      papertype=None, format='png',
                       transparent=False, bbox_inches=None, pad_inches=0.1)
         pylab.figure()
         pylab.plot(best_param_and_chi_sorted[:, ndim], 'r')
         pylab.title(r'sorted optimized $\chi^2$ values')
         pylab.xlabel('index')
         pylab.ylabel('$\chi^2$')
-        pylab.savefig(output_file_path + '/opt_chis_plot.pdf', facecolor='w', edgecolor='w', orientation='portrait',
-                      papertype=None, format='pdf',
+        pylab.savefig(output_file_path + '/opt_chis_plot.png', facecolor='w', edgecolor='w', orientation='portrait',
+                      papertype=None, format='png',
                       transparent=False, bbox_inches=None, pad_inches=0.1)
     #print(maxiparam_good_size)
     print('the best fit param are {0} and the corrisponding chi^2 is {1}'.format(maxiparam_good_size[0,:ndim],maxiparam_good_size[0, ndim]))
@@ -450,9 +450,9 @@ def plot_opt_fit_n_param(ndim, model_nparam,bests,data,flatchain_path=None,uncer
     my_objective=class_chi2.objective_with_uncertainties(best_fit,data, sigmas=uncertainties)
     chi=my_objective.chi_square_value()
     dof=np.shape(data)[0]-ndim
-    pylab.title(r'Best fit, $\chi=$'+str(chi)+', $\chi/dof=$'+str(chi/dof))
-    pylab.savefig(output_file_path + '/best_fit.pdf', facecolor='w', edgecolor='w',
-                  orientation='portrait', papertype=None, format='pdf', transparent=False, bbox_inches=None,
+    pylab.title(r'Best fit, $\chi=$'+str(round(chi,3))+', $\chi/dof=$'+str(round(chi/dof,3)))
+    pylab.savefig(output_file_path + '/best_fit.png', facecolor='w', edgecolor='w',
+                  orientation='portrait', papertype=None, format='png', transparent=False, bbox_inches=None,
                   pad_inches=0.1)
 
     if flatchain_path!=None:
@@ -518,8 +518,8 @@ def plot_opt_fit_n_param(ndim, model_nparam,bests,data,flatchain_path=None,uncer
         ax.set_xlabel(xlabel)
         ax.set_ylabel(ylabel)
         pylab.legend(loc=1)
-        pylab.savefig(output_file_path + '/best_fit_with_chain.pdf', facecolor='w', edgecolor='w',
-                  orientation='portrait', papertype=None, format='pdf', transparent=False, bbox_inches=None,
+        pylab.savefig(output_file_path + '/best_fit_with_chain.png', facecolor='w', edgecolor='w',
+                  orientation='portrait', papertype=None, format='png', transparent=False, bbox_inches=None,
                   pad_inches=0.1)
     #pylab.show()
 
@@ -683,12 +683,12 @@ def plot_1D_marginalized_distribution(flatchain_path, bests=None,output_pdf_file
                 pylab.ylabel('Marginalized Posterior Distribution')
                 if parameters_labels!=None:
                     pylab.xlabel(parameters_labels[j])
-                    pylab.savefig(output_pdf_file_path + '/histo_param_' + parameters_labels[j] + '.pdf', facecolor='w', edgecolor='w',
-                                  orientation='portrait', papertype=None, format='pdf', transparent=False, bbox_inches=None,
+                    pylab.savefig(output_pdf_file_path + '/histo_param_' + parameters_labels[j] + '.png', facecolor='w', edgecolor='w',
+                                  orientation='portrait', papertype=None, format='png', transparent=False, bbox_inches=None,
                                   pad_inches=0.1)
                 else:
-                    pylab.savefig(output_pdf_file_path + '/histo_param_'+str(j)+'.pdf', facecolor='w', edgecolor='w',
-                              orientation='portrait', papertype=None, format='pdf', transparent=False, bbox_inches=None,
+                    pylab.savefig(output_pdf_file_path + '/histo_param_'+str(j)+'.png', facecolor='w', edgecolor='w',
+                              orientation='portrait', papertype=None, format='png', transparent=False, bbox_inches=None,
                               pad_inches=0.1)
                 if bests is None:
                     sigma[j, :] = nlower, nupper, float(nupper - nlower) / 2,nmedian
@@ -759,15 +759,15 @@ def plot_1D_marginalized_distribution(flatchain_path, bests=None,output_pdf_file
             pylab.ylabel('Marginalized Posterior Distribution')
             if parameters_labels != None:
                 pylab.xlabel(parameters_labels)
-                pylab.savefig(output_pdf_file_path + '/histo_param_' + parameters_labels[0]+ '.pdf',
+                pylab.savefig(output_pdf_file_path + '/histo_param_' + parameters_labels[0]+ '.png',
                               facecolor='w', edgecolor='w',
-                              orientation='portrait', papertype=None, format='pdf', transparent=False,
+                              orientation='portrait', papertype=None, format='png', transparent=False,
                               bbox_inches=None,
                               pad_inches=0.1)
             else:
-                pylab.savefig(output_pdf_file_path + '/histo_param_' + str(0) + '.pdf', facecolor='w',
+                pylab.savefig(output_pdf_file_path + '/histo_param_' + str(0) + '.png', facecolor='w',
                               edgecolor='w',
-                              orientation='portrait', papertype=None, format='pdf', transparent=False,
+                              orientation='portrait', papertype=None, format='png', transparent=False,
                               bbox_inches=None,
                               pad_inches=0.1)
             if bests is None:

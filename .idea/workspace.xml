@@ -23,8 +23,8 @@
       <file leaf-file-name="PhotoManip_fun.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhotoManip/PhotoManip_fun.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1356">
-              <caret line="917" column="32" selection-start-line="917" selection-start-column="32" selection-end-line="917" selection-end-column="32" />
+            <state relative-caret-position="249">
+              <caret line="898" column="80" selection-start-line="898" selection-start-column="77" selection-end-line="898" selection-end-column="80" />
               <folding>
                 <element signature="e#425#443#0" expanded="true" />
                 <element signature="e#797#3716#0" expanded="false" />
@@ -43,13 +43,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_photomanip.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_photomanip.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhotoManip/test/test_photomanip.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="88" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fitter_general.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PhotoManip/fitter_general.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-75">
+              <caret line="363" column="19" selection-start-line="363" selection-start-column="14" selection-end-line="363" selection-end-column="19" />
+              <folding>
+                <element signature="e#32364#35135#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -75,8 +87,9 @@
         <option value="$PROJECT_DIR$/Photomanip/fitter_general.py" />
         <option value="$PROJECT_DIR$/Photomanip/Photomanip_fun.py" />
         <option value="$PROJECT_DIR$/Photomanip/test/test_photomanip.py" />
-        <option value="$PROJECT_DIR$/PhotoManip/PhotoManip_fun.py" />
         <option value="$PROJECT_DIR$/PhotoManip/test/test_photomanip.py" />
+        <option value="$PROJECT_DIR$/PhotoManip/PhotoManip_fun.py" />
+        <option value="$PROJECT_DIR$/PhotoManip/fitter_general.py" />
       </list>
     </option>
   </component>
@@ -424,21 +437,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhotoManip/fitter_general.py">
+    <entry file="file://$PROJECT_DIR$/PhotoManip/test/test_photomanip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-364">
-          <caret line="696" column="25" selection-start-line="696" selection-start-column="25" selection-end-line="696" selection-end-column="25" />
+        <state relative-caret-position="45">
+          <caret line="3" column="88" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
           <folding>
-            <element signature="e#23229#32231#0" expanded="false" />
-            <element signature="e#32346#35117#0" expanded="false" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PhotoManip/PhotoManip_fun.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1356">
-          <caret line="917" column="32" selection-start-line="917" selection-start-column="32" selection-end-line="917" selection-end-column="32" />
+        <state relative-caret-position="249">
+          <caret line="898" column="80" selection-start-line="898" selection-start-column="77" selection-end-line="898" selection-end-column="80" />
           <folding>
             <element signature="e#425#443#0" expanded="true" />
             <element signature="e#797#3716#0" expanded="false" />
@@ -456,12 +468,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhotoManip/test/test_photomanip.py">
+    <entry file="file://$PROJECT_DIR$/PhotoManip/fitter_general.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="88" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
+        <state relative-caret-position="-75">
+          <caret line="363" column="19" selection-start-line="363" selection-start-column="14" selection-end-line="363" selection-end-column="19" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#32364#35135#0" expanded="false" />
           </folding>
         </state>
       </provider>
