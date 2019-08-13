@@ -892,6 +892,10 @@ def tref_from_P48(path_to_data, tref_assumed=None, band='r',days_rising=10):
     pylab.xlabel(r"time (JD)")
     pylab.ylabel(r"flux $[erg/s/cm^2/\AA]$")
     pylab.tight_layout()
+    if band=='r':
+        pylab.savefig('results_tref_calculator_from_P48R/lc_and_rising_piece.png')
+    elif band=='g':
+        pylab.savefig('results_tref_calculator_from_P48R/lc_and_rising_piece.png')
     pylab.legend()
 
 
@@ -981,10 +985,10 @@ def tref_from_P48(path_to_data, tref_assumed=None, band='r',days_rising=10):
         output_mcmc + '/1sigma.txt')[:, 2]))
     # print('when fitting whith the power law, the best fit is {0}, with sigma is {1}'.format(bests[:-1],np.genfromtxt('tref_calculator_results_powerlaw/1sigma.txt')[:,2])
     best_tref = bests[2]
-    print('tmin-tref={0}'.format(-bests[2] + np.min(data_P48_rise['days'])))
-    print('tbo=tpeak-tref={0}'.format(np.max(data_P48_rise['days']) - bests[2]))
-    print('the characteristic timescale to of the exponent is {0}'.format(bests[1]))
-    print('********************************************')
+    #print('tmin-tref={0}'.format(-bests[2] + np.min(data_P48_rise['days'])))
+    #print('tbo=tpeak-tref={0}'.format(np.max(data_P48_rise['days']) - bests[2]))
+    #print('the characteristic timescale to of the exponent is {0}'.format(bests[1]))
+    #print('********************************************')
     # pylab.show()
     # pdb.set_trace()
 
@@ -1060,10 +1064,10 @@ def tref_from_P48(path_to_data, tref_assumed=None, band='r',days_rising=10):
         output_mcmc + '/1sigma.txt')[:, 2]))
     # print('when fitting whith the power law, the best fit is {0}, with sigma is {1}'.format(bests[:-1],np.genfromtxt('tref_calculator_results_powerlaw/1sigma.txt')[:,2])
     best_tref = bests[2]
-    print('tmin-tref={0}'.format(-bests[2] + np.min(data_P48_rise['days'])))
-    print('tbo=tpeak-tref={0}'.format(np.max(data_P48_rise['days']) - bests[2]))
-    print('the index of the power law is {0}'.format(bests[1]))
-    print('********************************************')
+    #print('tmin-tref={0}'.format(-bests[2] + np.min(data_P48_rise['days'])))
+    #print('tbo=tpeak-tref={0}'.format(np.max(data_P48_rise['days']) - bests[2]))
+    #print('the index of the power law is {0}'.format(bests[1]))
+    #print('********************************************')
     #pylab.show()
     # pdb.set_trace()
 

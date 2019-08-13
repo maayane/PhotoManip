@@ -1,0 +1,573 @@
+date,jdobs,filter,absmag,magpsf,sigmamagpsf,limmag,instrument,programid,reducedby,refsys,issub,isdiffpos 
+"2018 Jul 22",2458321.9165,"g", 99.0, 99.0,99.0, 20.73,"P48+ZTF","2","None","None",True,True
+"2018 Jul 22",2458321.9358,"g", 99.0, 99.0,99.0, 20.86,"P48+ZTF","2","None","None",True,True
+"2018 Jul 22",2458321.9571,"g", 99.0, 99.0,99.0, 20.89,"P48+ZTF","2","None","None",True,True
+"2018 Jul 22",2458321.9696,"r", 99.0, 99.0,99.0, 20.84,"P48+ZTF","2","None","None",True,True
+"2018 Jul 23",2458322.8775,"r", 99.0, 99.0,99.0, 20.39,"P48+ZTF","1","None","None",True,True
+"2018 Jul 23",2458322.8784,"r", 99.0, 99.0,99.0, 20.39,"P48+ZTF","2","None","None",True,True
+"2018 Jul 23",2458322.9075,"r", 99.0, 99.0,99.0, 20.77,"P48+ZTF","2","None","None",True,True
+"2018 Jul 23",2458322.9442,"g", 99.0, 99.0,99.0, 20.84,"P48+ZTF","2","None","None",True,True
+"2018 Jul 23",2458322.9451,"g", 99.0, 99.0,99.0, 20.79,"P48+ZTF","1","None","None",True,True
+"2018 Jul 23",2458322.9773,"g", 99.0, 99.0,99.0, 20.73,"P48+ZTF","2","None","None",True,True
+"2018 Jul 23",2458322.9900,"r", 99.0, 99.0,99.0, 20.39,"P48+ZTF","2","None","None",True,True
+"2018 Jul 24",2458323.9163,"g", 99.0, 99.0,99.0, 20.16,"P48+ZTF","2","None","None",True,True
+"2018 Jul 24",2458323.9368,"g", 99.0, 99.0,99.0, 20.68,"P48+ZTF","2","None","None",True,True
+"2018 Jul 24",2458323.9524,"g", 99.0, 99.0,99.0, 20.71,"P48+ZTF","2","None","None",True,True
+"2018 Jul 24",2458323.9780,"r", 99.0, 99.0,99.0, 20.75,"P48+ZTF","2","None","None",True,True
+"2018 Jul 25",2458324.9085,"g", 99.0, 99.0,99.0, 19.62,"P48+ZTF","2","None","None",True,True
+"2018 Jul 25",2458324.9290,"g", 99.0, 99.0,99.0, 19.78,"P48+ZTF","2","None","None",True,True
+"2018 Jul 25",2458324.9503,"g", 99.0, 99.0,99.0, 20.09,"P48+ZTF","2","None","None",True,True
+"2018 Jul 25",2458324.9713,"r", 99.0, 99.0,99.0, 20.60,"P48+ZTF","2","None","None",True,True
+"2018 Jul 26",2458325.7826,"r", 99.0, 99.0,99.0, 19.24,"P48+ZTF","2","None","None",True,True
+"2018 Jul 26",2458325.9007,"g", 99.0, 99.0,99.0, 19.55,"P48+ZTF","2","None","None",True,True
+"2018 Jul 26",2458325.9281,"g", 99.0, 99.0,99.0, 19.78,"P48+ZTF","2","None","None",True,True
+"2018 Jul 26",2458325.9521,"g", 99.0, 99.0,99.0, 19.67,"P48+ZTF","2","None","None",True,True
+"2018 Jul 26",2458325.9530,"g", 99.0, 99.0,99.0, 19.78,"P48+ZTF","1","None","None",True,True
+"2018 Jul 26",2458325.9738,"r", 99.0, 99.0,99.0, 20.20,"P48+ZTF","2","None","None",True,True
+"2018 Jul 26",2458325.9912,"r", 99.0, 99.0,99.0, 20.25,"P48+ZTF","1","None","None",True,True
+"2018 Jul 26",2458325.9921,"r", 99.0, 99.0,99.0, 20.23,"P48+ZTF","2","None","None",True,True
+"2018 Jul 27",2458326.8573,"r", 99.0, 99.0,99.0, 19.39,"P48+ZTF","2","None","None",True,True
+"2018 Jul 27",2458326.8829,"r", 99.0, 99.0,99.0, 19.61,"P48+ZTF","2","None","None",True,True
+"2018 Jul 27",2458326.9109,"r", 99.0, 99.0,99.0, 19.70,"P48+ZTF","2","None","None",True,True
+"2018 Jul 27",2458326.9561,"g", 99.0, 99.0,99.0, 19.37,"P48+ZTF","2","None","None",True,True
+"2018 Jul 27",2458326.9642,"g", 99.0, 99.0,99.0, 19.75,"P48+ZTF","2","None","None",True,True
+"2018 Jul 27",2458326.9839,"g", 99.0, 99.0,99.0, 19.79,"P48+ZTF","2","None","None",True,True
+"2018 Jul 28",2458327.8781,"r", 99.0, 99.0,99.0, 19.51,"P48+ZTF","2","None","None",True,True
+"2018 Jul 28",2458327.9064,"r", 99.0, 99.0,99.0, 19.09,"P48+ZTF","2","None","None",True,True
+"2018 Jul 28",2458327.9363,"r", 99.0, 99.0,99.0, 19.76,"P48+ZTF","2","None","None",True,True
+"2018 Jul 28",2458327.9426,"g", 99.0, 99.0,99.0, 18.97,"P48+ZTF","2","None","None",True,True
+"2018 Jul 28",2458327.9715,"g", 99.0, 99.0,99.0, 19.42,"P48+ZTF","2","None","None",True,True
+"2018 Jul 28",2458327.9978,"g", 99.0, 99.0,99.0, 19.34,"P48+ZTF","2","None","None",True,True
+"2018 Jul 29",2458328.8780,"r", 99.0, 99.0,99.0, 19.58,"P48+ZTF","2","None","None",True,True
+"2018 Jul 29",2458328.9064,"r", 99.0, 99.0,99.0, 19.61,"P48+ZTF","2","None","None",True,True
+"2018 Jul 29",2458328.9075,"r", 99.0, 99.0,99.0, 19.59,"P48+ZTF","1","None","None",True,True
+"2018 Jul 29",2458328.9289,"r", 99.0, 99.0,99.0, 19.59,"P48+ZTF","2","None","None",True,True
+"2018 Jul 29",2458328.9588,"g", 99.0, 99.0,99.0, 18.47,"P48+ZTF","2","None","None",True,True
+"2018 Jul 29",2458328.9679,"g", 99.0, 99.0,99.0, 18.36,"P48+ZTF","2","None","None",True,True
+"2018 Jul 30",2458329.8532,"r", 99.0, 99.0,99.0, 19.74,"P48+ZTF","2","None","None",True,True
+"2018 Jul 30",2458329.8613,"r", 99.0, 99.0,99.0, 19.70,"P48+ZTF","2","None","None",True,True
+"2018 Jul 30",2458329.9291,"g", 99.0, 99.0,99.0, 19.70,"P48+ZTF","2","None","None",True,True
+"2018 Jul 30",2458329.9399,"g", 99.0, 99.0,99.0, 19.85,"P48+ZTF","2","None","None",True,True
+"2018 Jul 30",2458329.9782,"g", 99.0, 99.0,99.0, 19.85,"P48+ZTF","2","None","None",True,True
+"2018 Jul 30",2458329.9844,"r", 99.0, 99.0,99.0, 20.03,"P48+ZTF","2","None","None",True,True
+"2018 Jul 31",2458330.8822,"r", 99.0, 99.0,99.0, 19.91,"P48+ZTF","2","None","None",True,True
+"2018 Jul 31",2458330.8990,"r", 99.0, 99.0,99.0, 19.93,"P48+ZTF","2","None","None",True,True
+"2018 Jul 31",2458330.9286,"r", 99.0, 99.0,99.0, 19.96,"P48+ZTF","2","None","None",True,True
+"2018 Jul 31",2458330.9539,"g", 99.0, 99.0,99.0, 19.58,"P48+ZTF","2","None","None",True,True
+"2018 Jul 31",2458330.9718,"g", 99.0, 99.0,99.0, 19.61,"P48+ZTF","2","None","None",True,True
+"2018 Jul 31",2458330.9995,"g", 99.0, 99.0,99.0, 19.42,"P48+ZTF","2","None","None",True,True
+"2018 Aug 01",2458331.8802,"r", 99.0, 99.0,99.0, 19.99,"P48+ZTF","2","None","None",True,True
+"2018 Aug 01",2458331.9041,"r", 99.0, 99.0,99.0, 20.03,"P48+ZTF","1","None","None",True,True
+"2018 Aug 01",2458331.9050,"r", 99.0, 99.0,99.0, 20.00,"P48+ZTF","2","None","None",True,True
+"2018 Aug 01",2458331.9227,"r", 99.0, 99.0,99.0, 20.13,"P48+ZTF","2","None","None",True,True
+"2018 Aug 01",2458331.9686,"g", 99.0, 99.0,99.0, 20.01,"P48+ZTF","2","None","None",True,True
+"2018 Aug 01",2458331.9906,"g", 99.0, 99.0,99.0, 19.94,"P48+ZTF","2","None","None",True,True
+"2018 Aug 01",2458331.9915,"g", 99.0, 99.0,99.0, 19.95,"P48+ZTF","1","None","None",True,True
+"2018 Aug 02",2458332.8763,"r", 99.0, 99.0,99.0, 20.12,"P48+ZTF","2","None","None",True,True
+"2018 Aug 02",2458332.9012,"r", 99.0, 99.0,99.0, 19.97,"P48+ZTF","2","None","None",True,True
+"2018 Aug 02",2458332.9251,"r", 99.0, 99.0,99.0, 20.16,"P48+ZTF","2","None","None",True,True
+"2018 Aug 02",2458332.9496,"g", 99.0, 99.0,99.0, 19.98,"P48+ZTF","2","None","None",True,True
+"2018 Aug 02",2458332.9616,"g", 99.0, 99.0,99.0, 19.86,"P48+ZTF","2","None","None",True,True
+"2018 Aug 02",2458332.9856,"g", 99.0, 99.0,99.0, 17.63,"P48+ZTF","2","None","None",True,True
+"2018 Aug 04",2458334.8212,"g", 99.0, 99.0,99.0, 20.21,"P48+ZTF","1","None","None",True,True
+"2018 Aug 04",2458334.9534,"r", 99.0, 99.0,99.0, 20.45,"P48+ZTF","1","None","None",True,True
+"2018 Aug 07",2458337.8403,"r", 99.0, 99.0,99.0, 20.77,"P48+ZTF","1","None","None",True,True
+"2018 Aug 07",2458337.8868,"g", 99.0, 99.0,99.0, 20.65,"P48+ZTF","1","None","None",True,True
+"2018 Aug 10",2458340.8629,"g", 99.0, 99.0,99.0, 19.83,"P48+ZTF","1","None","None",True,True
+"2018 Aug 13",2458343.8659,"r", 99.0, 99.0,99.0, 20.79,"P48+ZTF","1","None","None",True,True
+"2018 Aug 13",2458343.9094,"g", 99.0, 99.0,99.0, 20.74,"P48+ZTF","1","None","None",True,True
+"2018 Aug 16",2458346.8658,"g", 99.0, 99.0,99.0, 20.81,"P48+ZTF","1","None","None",True,True
+"2018 Aug 16",2458346.9017,"r", 99.0, 99.0,99.0, 20.79,"P48+ZTF","1","None","None",True,True
+"2018 Aug 19",2458349.8104,"r", 99.0, 99.0,99.0, 20.68,"P48+ZTF","2","None","None",True,True
+"2018 Aug 19",2458349.8271,"r", 99.0, 99.0,99.0, 20.79,"P48+ZTF","2","None","None",True,True
+"2018 Aug 19",2458349.8408,"r", 99.0, 99.0,99.0, 20.61,"P48+ZTF","1","None","None",True,True
+"2018 Aug 19",2458349.8442,"r", 99.0, 99.0,99.0, 20.81,"P48+ZTF","2","None","None",True,True
+"2018 Aug 19",2458349.8884,"g", 99.0, 99.0,99.0, 20.90,"P48+ZTF","2","None","None",True,True
+"2018 Aug 19",2458349.9002,"g", 99.0, 99.0,99.0, 20.95,"P48+ZTF","2","None","None",True,True
+"2018 Aug 19",2458349.9012,"g", 99.0, 99.0,99.0, 20.96,"P48+ZTF","1","None","None",True,True
+"2018 Aug 20",2458350.8904,"r", 99.0, 99.0,99.0, 20.85,"P48+ZTF","2","None","None",True,True
+"2018 Aug 20",2458350.9010,"r", 99.0, 99.0,99.0, 20.82,"P48+ZTF","2","None","None",True,True
+"2018 Aug 20",2458350.9306,"g", 99.0, 99.0,99.0, 20.85,"P48+ZTF","2","None","None",True,True
+"2018 Aug 20",2458350.9583,"g", 99.0, 99.0,99.0, 20.89,"P48+ZTF","2","None","None",True,True
+"2018 Aug 20",2458350.9794,"g", 99.0, 99.0,99.0, 20.96,"P48+ZTF","2","None","None",True,True
+"2018 Aug 21",2458351.8659,"r", -15.19, 19.11,0.06, 20.76,"P48+ZTF","2","None","None",True,True
+"2018 Aug 21",2458351.8827,"r", -15.14, 19.17,0.07, 20.92,"P48+ZTF","2","None","None",True,True
+"2018 Aug 21",2458351.9370,"g", -15.53, 18.78,0.10, 20.95,"P48+ZTF","2","None","None",True,True
+"2018 Aug 21",2458351.9391,"g", -15.54, 18.77,0.08, 21.00,"P48+ZTF","2","None","None",True,True
+"2018 Aug 21",2458351.9816,"r", -15.46, 18.85,0.09, 20.76,"P48+ZTF","2","None","None",True,True
+"2018 Aug 21",2458352.0686,"UVW1", -16.06, 18.25,0.06, 21.07,"Swift+UVOT","14","Steve Schulze","UVOT ZPs; AB; no ext corr, aperture photometry, significant host contamination, extraction aperture reduced to 5''",False,True
+"2018 Aug 21",2458352.0714,"u", -16.43, 17.88,0.07, 20.05,"Swift+UVOT","14","Steve Schulze","UVOT ZPs; AB; no ext corr, aperture photometry, significant host contamination, extraction aperture reduced to 5''",False,True
+"2018 Aug 21",2458352.0734,"B", -16.70, 17.61,0.10, 19.22,"Swift+UVOT","14","Steve Schulze","UVOT ZPs; AB; no ext corr, aperture photometry, significant host contamination, extraction aperture reduced to 5''",False,True
+"2018 Aug 21",2458352.0745,"UVW2", -16.12, 18.18,0.17, 19.48,"Swift+UVOT","14","Steve Schulze","UVOT ZPs; AB; no ext corr, aperture photometry, significant host contamination, extraction aperture reduced to 5''",False,True
+"2018 Aug 21",2458352.1151,"UVW1", -16.06, 18.24,0.06, 21.29,"Swift+UVOT","14","Steve Schulze","UVOT ZPs; AB; no ext corr, aperture photometry, significant host contamination, extraction aperture reduced to 5''",False,True
+"2018 Aug 21",2458352.1179,"u", -16.37, 17.93,0.06, 20.80,"Swift+UVOT","14","Steve Schulze","UVOT ZPs; AB; no ext corr, aperture photometry, significant host contamination, extraction aperture reduced to 5''",False,True
+"2018 Aug 21",2458352.1198,"B", -16.81, 17.49,0.06, 20.02,"Swift+UVOT","14","Steve Schulze","UVOT ZPs; AB; no ext corr, aperture photometry, significant host contamination, extraction aperture reduced to 5''",False,True
+"2018 Aug 21",2458352.1245,"UVW2", -16.00, 18.31,0.04, 22.03,"Swift+UVOT","14","Steve Schulze","UVOT ZPs; AB; no ext corr, aperture photometry, significant host contamination, extraction aperture reduced to 5''",False,True
+"2018 Aug 21",2458352.1301,"V", -17.31, 17.00,0.06, 19.52,"Swift+UVOT","14","Steve Schulze","UVOT ZPs; AB; no ext corr, aperture photometry, significant host contamination, extraction aperture reduced to 5''",False,True
+"2018 Aug 21",2458352.1360,"UVM2", -15.85, 18.46,0.06, 21.64,"Swift+UVOT","14","Steve Schulze","UVOT ZPs; AB; no ext corr, aperture photometry, significant host contamination, extraction aperture reduced to 5''",False,True
+"2018 Aug 22",2458352.5301,"UVW1", -16.25, 18.06,0.09, 20.47,"Swift+UVOT","14","Steve Schulze","UVOT ZPs; AB; no ext corr, aperture photometry, significant host contamination, extraction aperture reduced to 5''",False,True
+"2018 Aug 22",2458352.5310,"u", -16.37, 17.94,0.12, 19.76,"Swift+UVOT","14","Steve Schulze","UVOT ZPs; AB; no ext corr, aperture photometry, significant host contamination, extraction aperture reduced to 5''",False,True
+"2018 Aug 22",2458352.5315,"B", -16.95, 17.36,0.11, 19.02,"Swift+UVOT","14","Steve Schulze","UVOT ZPs; AB; no ext corr, aperture photometry, significant host contamination, extraction aperture reduced to 5''",False,True
+"2018 Aug 22",2458352.5328,"UVW2", -16.03, 18.28,0.07, 21.06,"Swift+UVOT","14","Steve Schulze","UVOT ZPs; AB; no ext corr, aperture photometry, significant host contamination, extraction aperture reduced to 5''",False,True
+"2018 Aug 22",2458352.5342,"V", -17.21, 17.10,0.21, 17.85,"Swift+UVOT","14","Steve Schulze","UVOT ZPs; AB; no ext corr, aperture photometry, significant host contamination, extraction aperture reduced to 5''",False,True
+"2018 Aug 22",2458352.5359,"UVM2", -15.86, 18.45,0.08, 20.99,"Swift+UVOT","14","Steve Schulze","UVOT ZPs; AB; no ext corr, aperture photometry, significant host contamination, extraction aperture reduced to 5''",False,True
+"2018 Aug 22",2458352.8034,"r", -15.88, 18.43,0.06, 20.23,"P48+ZTF","2","None","None",True,True
+"2018 Aug 22",2458352.8915,"g", -16.00, 18.31,0.07, 20.49,"P48+ZTF","2","None","None",True,True
+"2018 Aug 22",2458352.9049,"g", -16.03, 18.28,0.05, 20.83,"P48+ZTF","2","None","None",True,True
+"2018 Aug 22",2458352.9049,"g", -16.03, 18.28,0.05, 20.83,"P48+ZTF","2","None","None",True,True
+"2018 Aug 22",2458352.9058,"g", -16.02, 18.28,0.06, 20.83,"P48+ZTF","1","None","None",True,True
+"2018 Aug 22",2458352.9058,"g", -16.02, 18.28,0.06, 20.83,"P48+ZTF","1","None","None",True,True
+"2018 Aug 22",2458352.9186,"g", -16.02, 18.29,0.05, 20.99,"P48+ZTF","2","None","None",True,True
+"2018 Aug 22",2458352.9693,"r", -15.94, 18.37,0.07, 20.77,"P48+ZTF","1","None","None",True,True
+"2018 Aug 22",2458352.9708,"r", -15.96, 18.35,0.04, 20.82,"P48+ZTF","2","None","None",True,True
+"2018 Aug 22",2458352.9809,"r", -15.94, 18.37,0.04, 20.72,"P48+ZTF","2","None","None",True,True
+"2018 Aug 23",2458353.5159,"uw1", -16.05, 18.25,0.21, 19.55,"Swift+UVOT","None","None","None",False,True
+"2018 Aug 23",2458353.5163,"uuu", -16.50, 17.81,0.09, 20.45,"Swift+UVOT","None","None","None",False,True
+"2018 Aug 23",2458353.5174,"ubb", -16.92, 17.39,0.09, 19.71,"Swift+UVOT","None","None","None",False,True
+"2018 Aug 23",2458353.5184,"uw2", -15.88, 18.43,0.08, 21.78,"Swift+UVOT","None","None","None",False,True
+"2018 Aug 23",2458353.5234,"uvv", -17.33, 16.98,0.12, 18.77,"Swift+UVOT","None","None","None",False,True
+"2018 Aug 23",2458353.5245,"um2", -15.73, 18.58,0.09, 21.74,"Swift+UVOT","None","None","None",False,True
+"2018 Aug 23",2458353.6965,"r", -16.13, 18.18,0.02, 20.40,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Aug 23",2458353.6993,"g", -16.13, 18.17,0.03, 20.22,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Aug 23",2458353.7021,"i", -16.08, 18.23,0.02, 21.21,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Aug 23",2458353.7265,"r", -16.12, 18.19,0.02, 20.71,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Aug 23",2458353.7283,"g", 99.0, 99.0,99.0, 20.43,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Aug 23",2458353.7300,"i", -16.11, 18.20,0.02, 21.04,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Aug 23",2458353.9094,"r", -16.15, 18.16,0.05, 20.42,"P48+ZTF","2","None","None",True,True
+"2018 Aug 23",2458353.9329,"r", -16.16, 18.15,0.04, 20.63,"P48+ZTF","2","None","None",True,True
+"2018 Aug 23",2458353.9329,"r", -16.16, 18.15,0.04, 20.63,"P48+ZTF","2","None","None",True,True
+"2018 Aug 23",2458353.9556,"r", -16.15, 18.16,0.05, 20.88,"P48+ZTF","2","None","None",True,True
+"2018 Aug 23",2458353.9713,"r", -16.18, 18.12,0.05, 20.80,"P48+ZTF","2","None","None",True,True
+"2018 Aug 23",2458353.9888,"r", -16.16, 18.15,0.05, 20.84,"P48+ZTF","2","None","None",True,True
+"2018 Aug 23",2458353.9888,"r", -16.16, 18.15,0.05, 20.84,"P48+ZTF","2","None","None",True,True
+"2018 Aug 23",2458354.0024,"r", -16.19, 18.12,0.06, 20.72,"P48+ZTF","2","None","None",True,True
+"2018 Aug 23",2458354.0024,"r", -16.19, 18.12,0.06, 20.72,"P48+ZTF","2","None","None",True,True
+"2018 Aug 24",2458354.8194,"r", -16.31, 18.00,0.05, 20.23,"P48+ZTF","2","None","None",True,True
+"2018 Aug 24",2458354.8415,"r", -16.35, 17.96,0.04, 20.12,"P48+ZTF","2","None","None",True,True
+"2018 Aug 24",2458354.9274,"r", -16.31, 18.00,0.06, 20.27,"P48+ZTF","2","None","None",True,True
+"2018 Aug 24",2458354.9565,"r", -16.34, 17.97,0.04, 20.35,"P48+ZTF","2","None","None",True,True
+"2018 Aug 24",2458354.9565,"r", -16.34, 17.97,0.04, 20.35,"P48+ZTF","2","None","None",True,True
+"2018 Aug 24",2458354.9702,"r", -16.33, 17.97,0.05, 20.41,"P48+ZTF","2","None","None",True,True
+"2018 Aug 24",2458354.9702,"r", -16.33, 17.97,0.05, 20.41,"P48+ZTF","2","None","None",True,True
+"2018 Aug 24",2458354.9887,"r", -16.32, 17.98,0.05, 20.83,"P48+ZTF","2","None","None",True,True
+"2018 Aug 24",2458354.9887,"r", -16.32, 17.98,0.05, 20.83,"P48+ZTF","2","None","None",True,True
+"2018 Aug 25",2458355.5032,"UVW1", -16.02, 18.29,0.09, 21.42,"Swift+UVOT","None","None","None",False,True
+"2018 Aug 25",2458355.5073,"u", -16.55, 17.76,0.07, 20.90,"Swift+UVOT","None","None","None",False,True
+"2018 Aug 25",2458355.5094,"B", -17.11, 17.20,0.07, 20.12,"Swift+UVOT","None","None","None",False,True
+"2018 Aug 25",2458355.5115,"UVW2", -15.49, 18.81,0.17, 20.54,"Swift+UVOT","None","None","None",False,True
+"2018 Aug 25",2458355.7176,"r", -16.39, 17.92,0.02, 20.56,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Aug 25",2458355.7176,"r", -16.39, 17.92,0.02, 20.60,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Aug 25",2458355.8415,"r", -16.46, 17.84,0.05, 20.05,"P48+ZTF","2","None","None",True,True
+"2018 Aug 25",2458355.8623,"r", 99.0, 99.0,99.0, 19.22,"P48+ZTF","1","None","None",True,True
+"2018 Aug 25",2458355.8632,"r", -16.46, 17.85,0.06, 18.86,"P48+ZTF","2","None","None",True,True
+"2018 Aug 25",2458355.8632,"r", -16.46, 17.85,0.06, 18.86,"P48+ZTF","2","None","None",True,True
+"2018 Aug 25",2458355.8820,"r", 99.0, 99.0,99.0, 19.16,"P48+ZTF","2","None","None",True,True
+"2018 Aug 25",2458355.9318,"r", -16.46, 17.85,0.05, 20.10,"P48+ZTF","2","None","None",True,True
+"2018 Aug 25",2458355.9689,"r", -16.45, 17.86,0.05, 20.19,"P48+ZTF","2","None","None",True,True
+"2018 Aug 25",2458355.9873,"r", -16.45, 17.86,0.05, 20.05,"P48+ZTF","2","None","None",True,True
+"2018 Aug 25",2458355.9882,"r", -16.47, 17.84,0.05, 20.13,"P48+ZTF","1","None","None",True,True
+"2018 Aug 25",2458355.9882,"r", -16.47, 17.84,0.05, 20.13,"P48+ZTF","1","None","None",True,True
+"2018 Aug 26",2458356.8784,"r", -16.53, 17.78,0.05, 19.90,"P48+ZTF","2","None","None",True,True
+"2018 Aug 26",2458356.8784,"r", -16.53, 17.78,0.05, 19.90,"P48+ZTF","2","None","None",True,True
+"2018 Aug 26",2458356.9010,"r", -16.52, 17.79,0.05, 19.81,"P48+ZTF","2","None","None",True,True
+"2018 Aug 26",2458356.9233,"r", -16.56, 17.75,0.05, 19.89,"P48+ZTF","2","None","None",True,True
+"2018 Aug 26",2458356.9689,"r", -16.58, 17.73,0.04, 19.95,"P48+ZTF","2","None","None",True,True
+"2018 Aug 26",2458356.9906,"r", -16.58, 17.73,0.05, 19.94,"P48+ZTF","2","None","None",True,True
+"2018 Aug 26",2458357.0019,"r", -16.51, 17.80,0.05, 19.87,"P48+ZTF","2","None","None",True,True
+"2018 Aug 26",2458357.0019,"r", -16.51, 17.80,0.05, 19.87,"P48+ZTF","2","None","None",True,True
+"2018 Aug 26",2458357.1172,"UVW1", -16.22, 18.09,0.17, 19.59,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 26",2458357.1178,"u", -16.49, 17.82,0.17, 19.03,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 26",2458357.1182,"B", -16.73, 17.58,0.23, 18.29,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 26",2458357.1185,"UVW2", -15.28, 19.03,0.19, 20.21,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 26",2458357.1197,"V", -17.68, 16.63,0.22, 17.36,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 26",2458357.1201,"UVM2", -14.97, 19.34,0.31, 19.76,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 27",2458357.6816,"r", -16.47, 17.83,0.05, 19.54,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Aug 27",2458357.7008,"r", -16.55, 17.75,0.07, 18.83,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Aug 27",2458357.7008,"r", -16.55, 17.75,0.06, 19.01,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Aug 27",2458357.7025,"g", -16.34, 17.97,0.05, 19.31,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Aug 27",2458357.7042,"i", -16.61, 17.70,0.06, 19.15,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Aug 27",2458357.7173,"r", -16.59, 17.72,0.05, 19.46,"P48+ZTF","2","None","None",True,True
+"2018 Aug 27",2458357.7173,"r", -16.59, 17.72,0.05, 19.46,"P48+ZTF","2","None","None",True,True
+"2018 Aug 27",2458357.8781,"r", -16.58, 17.73,0.05, 19.84,"P48+ZTF","2","None","None",True,True
+"2018 Aug 27",2458357.8781,"r", -16.58, 17.73,0.05, 19.84,"P48+ZTF","2","None","None",True,True
+"2018 Aug 27",2458357.9105,"r", -16.61, 17.70,0.04, 20.03,"P48+ZTF","2","None","None",True,True
+"2018 Aug 27",2458357.9264,"r", -16.61, 17.70,0.05, 19.93,"P48+ZTF","2","None","None",True,True
+"2018 Aug 27",2458357.9737,"r", -16.67, 17.63,0.04, 19.85,"P48+ZTF","2","None","None",True,True
+"2018 Aug 27",2458357.9737,"r", -16.67, 17.63,0.04, 19.85,"P48+ZTF","2","None","None",True,True
+"2018 Aug 27",2458357.9864,"r", -16.60, 17.71,0.05, 19.78,"P48+ZTF","2","None","None",True,True
+"2018 Aug 27",2458357.9864,"r", -16.60, 17.71,0.05, 19.78,"P48+ZTF","2","None","None",True,True
+"2018 Aug 27",2458358.2869,"UVW1", -15.93, 18.38,0.09, 21.45,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 27",2458358.2915,"u", -16.66, 17.65,0.08, 20.67,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 27",2458358.2931,"B", -17.04, 17.27,0.08, 19.94,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 27",2458358.2947,"UVW2", -15.26, 19.05,0.17, 20.74,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 28",2458358.8515,"g", 99.0, 99.0,99.0, 19.68,"P48+ZTF","2","None","None",True,True
+"2018 Aug 28",2458358.8674,"g", 99.0, 99.0,99.0, 19.59,"P48+ZTF","2","None","None",True,True
+"2018 Aug 28",2458358.8818,"g", 99.0, 99.0,99.0, 19.65,"P48+ZTF","2","None","None",True,True
+"2018 Aug 28",2458358.8828,"g", 99.0, 99.0,99.0, 19.63,"P48+ZTF","1","None","None",True,True
+"2018 Aug 28",2458358.9094,"r", -16.71, 17.60,0.05, 19.72,"P48+ZTF","2","None","None",True,True
+"2018 Aug 28",2458358.9094,"r", -16.71, 17.60,0.05, 19.72,"P48+ZTF","2","None","None",True,True
+"2018 Aug 28",2458358.9188,"r", -16.68, 17.63,0.05, 19.85,"P48+ZTF","1","None","None",True,True
+"2018 Aug 28",2458358.9188,"r", -16.68, 17.63,0.05, 19.85,"P48+ZTF","1","None","None",True,True
+"2018 Aug 28",2458358.9197,"r", -16.69, 17.62,0.06, 19.83,"P48+ZTF","2","None","None",True,True
+"2018 Aug 28",2458358.9197,"r", -16.69, 17.62,0.06, 19.83,"P48+ZTF","2","None","None",True,True
+"2018 Aug 28",2458358.9514,"r", -16.68, 17.62,0.05, 19.93,"P48+ZTF","2","None","None",True,True
+"2018 Aug 28",2458359.4296,"UVW1", -15.79, 18.52,0.14, 20.66,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 28",2458359.4310,"u", -16.66, 17.64,0.12, 19.92,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 28",2458359.4315,"B", -17.10, 17.21,0.12, 19.18,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 28",2458359.4320,"UVW2", -15.17, 19.13,0.14, 21.24,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 28",2458359.4343,"V", -17.54, 16.77,0.15, 18.21,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 28",2458359.4348,"UVM2", -15.42, 18.89,0.13, 21.19,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 29",2458359.7763,"r", -16.73, 17.58,0.05, 19.85,"P48+ZTF","2","None","None",True,True
+"2018 Aug 29",2458359.8054,"r", -16.65, 17.65,0.04, 19.77,"P48+ZTF","2","None","None",True,True
+"2018 Aug 29",2458359.8054,"r", -16.65, 17.65,0.04, 19.77,"P48+ZTF","2","None","None",True,True
+"2018 Aug 29",2458359.8238,"r", -16.66, 17.65,0.05, 19.80,"P48+ZTF","2","None","None",True,True
+"2018 Aug 29",2458359.8595,"r", -16.73, 17.58,0.05, 19.84,"P48+ZTF","2","None","None",True,True
+"2018 Aug 29",2458359.8802,"r", -16.64, 17.67,0.06, 19.12,"P48+ZTF","2","None","None",True,True
+"2018 Aug 29",2458359.8802,"r", -16.64, 17.67,0.06, 19.12,"P48+ZTF","2","None","None",True,True
+"2018 Aug 29",2458359.8985,"r", -16.68, 17.62,0.05, 19.78,"P48+ZTF","2","None","None",True,True
+"2018 Aug 29",2458359.8985,"r", -16.68, 17.62,0.05, 19.78,"P48+ZTF","2","None","None",True,True
+"2018 Aug 29",2458359.9728,"r", -16.65, 17.66,0.03, 19.88,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Aug 29",2458359.9728,"r", -16.65, 17.66,0.02, 20.24,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Aug 29",2458359.9736,"r", -16.69, 17.62,0.03, 19.98,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Aug 29",2458359.9736,"r", -16.69, 17.62,0.03, 19.99,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Aug 29",2458360.4918,"UVW1", -15.64, 18.67,0.15, 20.55,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 29",2458360.4930,"u", -16.44, 17.87,0.13, 19.80,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 29",2458360.4935,"B", -16.93, 17.38,0.14, 19.09,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 29",2458360.4939,"UVW2", -14.58, 19.72,0.19, 21.09,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 29",2458360.4960,"V", -17.52, 16.79,0.16, 18.12,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 29",2458360.4964,"UVM2", -14.96, 19.34,0.15, 21.25,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Aug 30",2458360.8063,"r", -16.74, 17.57,0.05, 20.04,"P48+ZTF","2","None","None",True,True
+"2018 Aug 30",2458360.8156,"r", -16.73, 17.58,0.04, 19.97,"P48+ZTF","2","None","None",True,True
+"2018 Aug 30",2458360.8156,"r", -16.73, 17.58,0.04, 19.97,"P48+ZTF","2","None","None",True,True
+"2018 Aug 30",2458360.8401,"r", -16.76, 17.55,0.05, 19.97,"P48+ZTF","2","None","None",True,True
+"2018 Aug 30",2458360.9107,"g", -16.46, 17.84,0.08, 19.44,"P48+ZTF","2","None","None",True,True
+"2018 Aug 30",2458360.9107,"g", -16.46, 17.84,0.08, 19.44,"P48+ZTF","2","None","None",True,True
+"2018 Aug 30",2458360.9178,"g", -16.45, 17.86,0.07, 19.59,"P48+ZTF","2","None","None",True,True
+"2018 Aug 30",2458360.9178,"g", -16.45, 17.86,0.07, 19.59,"P48+ZTF","2","None","None",True,True
+"2018 Aug 30",2458360.9481,"g", -16.49, 17.82,0.08, 19.52,"P48+ZTF","2","None","None",True,True
+"2018 Aug 30",2458360.9481,"g", -16.49, 17.82,0.08, 19.52,"P48+ZTF","2","None","None",True,True
+"2018 Aug 31",2458361.8044,"r", -16.73, 17.57,0.04, 20.14,"P48+ZTF","2","None","None",True,True
+"2018 Aug 31",2458361.8146,"r", -16.70, 17.61,0.04, 20.40,"P48+ZTF","2","None","None",True,True
+"2018 Aug 31",2458361.8450,"r", -16.71, 17.60,0.04, 20.30,"P48+ZTF","1","None","None",True,True
+"2018 Aug 31",2458361.8464,"r", -16.71, 17.59,0.04, 20.29,"P48+ZTF","2","None","None",True,True
+"2018 Aug 31",2458361.8859,"g", -16.48, 17.83,0.06, 19.81,"P48+ZTF","2","None","None",True,True
+"2018 Aug 31",2458361.8859,"g", -16.48, 17.83,0.06, 19.81,"P48+ZTF","2","None","None",True,True
+"2018 Aug 31",2458361.9080,"g", -16.54, 17.77,0.05, 20.05,"P48+ZTF","1","None","None",True,True
+"2018 Aug 31",2458361.9089,"g", -16.50, 17.81,0.06, 20.07,"P48+ZTF","2","None","None",True,True
+"2018 Aug 31",2458361.9089,"g", -16.50, 17.81,0.06, 20.07,"P48+ZTF","2","None","None",True,True
+"2018 Aug 31",2458361.9268,"g", -16.50, 17.81,0.06, 19.93,"P48+ZTF","2","None","None",True,True
+"2018 Aug 31",2458361.9268,"g", -16.50, 17.81,0.06, 19.93,"P48+ZTF","2","None","None",True,True
+"2018 Sep 03",2458364.7493,"g", -16.50, 17.80,0.05, 20.89,"P48+ZTF","2","None","None",True,True
+"2018 Sep 03",2458364.7642,"g", -16.48, 17.83,0.05, 20.85,"P48+ZTF","2","None","None",True,True
+"2018 Sep 03",2458364.7814,"g", -16.48, 17.83,0.06, 20.81,"P48+ZTF","2","None","None",True,True
+"2018 Sep 03",2458364.8081,"r", -16.72, 17.59,0.04, 20.68,"P48+ZTF","2","None","None",True,True
+"2018 Sep 03",2458364.8206,"r", -16.76, 17.55,0.05, 20.66,"P48+ZTF","2","None","None",True,True
+"2018 Sep 03",2458364.8426,"r", -16.73, 17.58,0.03, 20.63,"P48+ZTF","1","None","None",True,True
+"2018 Sep 03",2458364.8435,"r", -16.74, 17.56,0.04, 20.60,"P48+ZTF","2","None","None",True,True
+"2018 Sep 04",2458365.6043,"UVW1", -15.09, 19.21,0.17, 20.73,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 04",2458365.6059,"u", -16.45, 17.86,0.12, 20.05,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 04",2458365.6065,"B", -17.05, 17.26,0.11, 19.27,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 04",2458365.6071,"UVW2", -14.59, 19.72,0.16, 21.35,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 04",2458365.6099,"V", -17.78, 16.53,0.12, 18.34,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 04",2458365.6105,"UVM2", -14.69, 19.62,0.15, 21.44,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 04",2458365.7919,"g", -16.42, 17.89,0.05, 20.92,"P48+ZTF","2","None","None",True,True
+"2018 Sep 04",2458365.8034,"g", -16.52, 17.78,0.05, 20.83,"P48+ZTF","2","None","None",True,True
+"2018 Sep 04",2458365.8453,"r", -16.75, 17.56,0.04, 20.69,"P48+ZTF","2","None","None",True,True
+"2018 Sep 04",2458365.8584,"r", -16.76, 17.55,0.04, 20.62,"P48+ZTF","2","None","None",True,True
+"2018 Sep 04",2458365.8936,"r", -16.75, 17.55,0.04, 20.72,"P48+ZTF","2","None","None",True,True
+"2018 Sep 04",2458365.8986,"g", -16.40, 17.91,0.05, 20.78,"P48+ZTF","2","None","None",True,True
+"2018 Sep 04",2458366.3394,"UVW1", -15.13, 19.18,0.18, 20.59,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 04",2458366.3408,"u", -16.31, 18.00,0.14, 19.88,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 04",2458366.3413,"B", -17.08, 17.23,0.12, 19.16,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 04",2458366.3418,"UVW2", -14.37, 19.94,0.20, 21.19,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 04",2458366.3441,"V", -17.38, 16.92,0.17, 18.20,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 04",2458366.3446,"UVM2", -14.60, 19.71,0.17, 21.25,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 05",2458366.8442,"r", -16.73, 17.58,0.03, 20.70,"P48+ZTF","2","None","None",True,True
+"2018 Sep 05",2458366.8579,"r", -16.77, 17.53,0.04, 20.73,"P48+ZTF","2","None","None",True,True
+"2018 Sep 05",2458366.9094,"g", -16.42, 17.89,0.05, 20.83,"P48+ZTF","2","None","None",True,True
+"2018 Sep 05",2458366.9204,"g", -16.42, 17.89,0.04, 20.88,"P48+ZTF","2","None","None",True,True
+"2018 Sep 05",2458366.9387,"g", -16.42, 17.89,0.06, 20.67,"P48+ZTF","2","None","None",True,True
+"2018 Sep 06",2458367.8070,"g", -16.38, 17.93,0.05, 20.69,"P48+ZTF","1","None","None",True,True
+"2018 Sep 06",2458367.8094,"g", -16.36, 17.95,0.05, 20.81,"P48+ZTF","2","None","None",True,True
+"2018 Sep 06",2458367.8417,"r", -16.74, 17.57,0.04, 20.67,"P48+ZTF","2","None","None",True,True
+"2018 Sep 06",2458367.8600,"r", -16.77, 17.54,0.05, 20.74,"P48+ZTF","1","None","None",True,True
+"2018 Sep 06",2458367.8609,"r", -16.73, 17.57,0.04, 20.78,"P48+ZTF","2","None","None",True,True
+"2018 Sep 06",2458367.8883,"r", -16.73, 17.58,0.04, 20.76,"P48+ZTF","2","None","None",True,True
+"2018 Sep 06",2458367.9189,"UVW1", -15.10, 19.21,0.17, 20.80,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 06",2458367.9204,"g", -16.40, 17.91,0.05, 20.94,"P48+ZTF","2","None","None",True,True
+"2018 Sep 06",2458367.9205,"u", -16.08, 18.23,0.14, 20.00,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 06",2458367.9211,"B", -16.94, 17.36,0.12, 19.29,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 06",2458367.9217,"UVW2", -14.51, 19.79,0.17, 21.36,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 06",2458367.9243,"V", -17.54, 16.76,0.14, 18.33,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 06",2458367.9249,"UVM2", -14.44, 19.87,0.17, 21.41,"Swift+UVOT","None","Maayane Soumagnac","None",False,True
+"2018 Sep 07",2458368.8023,"r", -16.72, 17.59,0.04, 20.84,"P48+ZTF","2","None","None",True,True
+"2018 Sep 07",2458368.8156,"r", -16.74, 17.56,0.04, 20.77,"P48+ZTF","2","None","None",True,True
+"2018 Sep 07",2458368.8426,"r", -16.73, 17.58,0.04, 20.80,"P48+ZTF","2","None","None",True,True
+"2018 Sep 07",2458368.8711,"g", -16.36, 17.94,0.04, 20.99,"P48+ZTF","2","None","None",True,True
+"2018 Sep 07",2458368.8774,"g", -16.38, 17.92,0.05, 20.99,"P48+ZTF","2","None","None",True,True
+"2018 Sep 07",2458368.9168,"g", -16.35, 17.96,0.04, 20.99,"P48+ZTF","2","None","None",True,True
+"2018 Sep 08",2458369.7913,"g", -16.36, 17.94,0.04, 20.93,"P48+ZTF","2","None","None",True,True
+"2018 Sep 08",2458369.8034,"g", -16.36, 17.94,0.05, 20.91,"P48+ZTF","2","None","None",True,True
+"2018 Sep 08",2458369.8187,"g", -16.34, 17.97,0.06, 20.95,"P48+ZTF","2","None","None",True,True
+"2018 Sep 08",2458369.8750,"r", -16.73, 17.58,0.03, 20.76,"P48+ZTF","2","None","None",True,True
+"2018 Sep 08",2458369.8843,"r", -16.74, 17.57,0.04, 20.63,"P48+ZTF","2","None","None",True,True
+"2018 Sep 08",2458369.9124,"r", -16.73, 17.58,0.04, 20.72,"P48+ZTF","2","None","None",True,True
+"2018 Sep 09",2458370.8009,"r", -16.75, 17.56,0.04, 20.67,"P48+ZTF","2","None","None",True,True
+"2018 Sep 09",2458370.8397,"g", -16.32, 17.99,0.04, 20.98,"P48+ZTF","2","None","None",True,True
+"2018 Sep 09",2458370.8620,"g", -16.34, 17.96,0.05, 20.97,"P48+ZTF","2","None","None",True,True
+"2018 Sep 09",2458370.8629,"g", -16.33, 17.98,0.07, 20.99,"P48+ZTF","1","None","None",True,True
+"2018 Sep 09",2458370.8793,"g", -16.30, 18.01,0.05, 20.98,"P48+ZTF","2","None","None",True,True
+"2018 Sep 09",2458370.9100,"r", -16.74, 17.57,0.03, 20.75,"P48+ZTF","1","None","None",True,True
+"2018 Sep 09",2458370.9109,"r", -16.73, 17.57,0.04, 20.82,"P48+ZTF","2","None","None",True,True
+"2018 Sep 09",2458370.9301,"r", -16.73, 17.58,0.04, 20.79,"P48+ZTF","2","None","None",True,True
+"2018 Sep 10",2458371.7023,"r", -16.72, 17.58,0.02, 20.37,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Sep 10",2458371.7041,"g", -16.34, 17.97,0.01, 21.50,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Sep 10",2458371.7058,"i", -16.79, 17.52,0.01, 21.39,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Sep 10",2458371.8092,"r", -16.74, 17.57,0.04, 20.77,"P48+ZTF","2","None","None",True,True
+"2018 Sep 10",2458371.8460,"g", -16.28, 18.03,0.05, 21.03,"P48+ZTF","2","None","None",True,True
+"2018 Sep 10",2458371.8645,"g", -16.25, 18.06,0.04, 20.93,"P48+ZTF","2","None","None",True,True
+"2018 Sep 10",2458371.8875,"g", -16.31, 18.00,0.05, 21.02,"P48+ZTF","2","None","None",True,True
+"2018 Sep 10",2458371.9088,"r", -16.72, 17.59,0.05, 20.86,"P48+ZTF","2","None","None",True,True
+"2018 Sep 10",2458371.9277,"r", -16.73, 17.58,0.04, 20.67,"P48+ZTF","2","None","None",True,True
+"2018 Sep 11",2458372.7837,"g", -16.25, 18.05,0.05, 20.93,"P48+ZTF","2","None","None",True,True
+"2018 Sep 11",2458372.8368,"r", -16.77, 17.54,0.04, 20.61,"P48+ZTF","2","None","None",True,True
+"2018 Sep 11",2458372.8627,"r", -16.72, 17.59,0.04, 20.61,"P48+ZTF","2","None","None",True,True
+"2018 Sep 11",2458372.8819,"r", -16.74, 17.57,0.04, 20.73,"P48+ZTF","2","None","None",True,True
+"2018 Sep 11",2458372.9089,"g", -16.29, 18.02,0.05, 20.83,"P48+ZTF","2","None","None",True,True
+"2018 Sep 11",2458372.9242,"g", -16.24, 18.07,0.05, 20.91,"P48+ZTF","2","None","None",True,True
+"2018 Sep 12",2458373.7890,"r", -16.76, 17.55,0.04, 20.61,"P48+ZTF","2","None","None",True,True
+"2018 Sep 12",2458373.8051,"r", -16.73, 17.58,0.03, 20.69,"P48+ZTF","2","None","None",True,True
+"2018 Sep 12",2458373.8192,"r", -16.76, 17.55,0.03, 20.74,"P48+ZTF","1","None","None",True,True
+"2018 Sep 12",2458373.8201,"r", -16.74, 17.57,0.04, 20.67,"P48+ZTF","2","None","None",True,True
+"2018 Sep 12",2458373.8725,"g", -16.27, 18.04,0.05, 20.93,"P48+ZTF","1","None","None",True,True
+"2018 Sep 12",2458373.8734,"g", -16.25, 18.06,0.05, 20.90,"P48+ZTF","2","None","None",True,True
+"2018 Sep 12",2458373.8870,"g", -16.24, 18.06,0.05, 20.83,"P48+ZTF","2","None","None",True,True
+"2018 Sep 12",2458373.8980,"g", -16.19, 18.12,0.05, 20.88,"P48+ZTF","2","None","None",True,True
+"2018 Sep 13",2458374.7812,"g", -16.22, 18.09,0.05, 20.77,"P48+ZTF","2","None","None",True,True
+"2018 Sep 13",2458374.8278,"r", -16.74, 17.57,0.04, 20.61,"P48+ZTF","2","None","None",True,True
+"2018 Sep 13",2458374.8410,"r", -16.71, 17.59,0.04, 20.51,"P48+ZTF","2","None","None",True,True
+"2018 Sep 13",2458374.8581,"r", -16.73, 17.58,0.04, 20.63,"P48+ZTF","2","None","None",True,True
+"2018 Sep 13",2458374.9088,"g", -16.17, 18.14,0.08, 20.88,"P48+ZTF","2","None","None",True,True
+"2018 Sep 13",2458374.9236,"g", -16.18, 18.13,0.05, 20.75,"P48+ZTF","2","None","None",True,True
+"2018 Sep 14",2458375.6406,"g", -16.20, 18.11,0.04, 21.12,"P48+ZTF","2","None","None",True,True
+"2018 Sep 14",2458375.8038,"g", -16.19, 18.12,0.06, 20.95,"P48+ZTF","2","None","None",True,True
+"2018 Sep 14",2458375.8496,"r", -16.76, 17.54,0.04, 20.73,"P48+ZTF","2","None","None",True,True
+"2018 Sep 14",2458375.8650,"r", -16.74, 17.57,0.03, 20.77,"P48+ZTF","2","None","None",True,True
+"2018 Sep 14",2458375.8904,"g", -16.19, 18.12,0.03, 21.53,"P48+ZTF","2","None","None",True,True
+"2018 Sep 14",2458375.9065,"r", -16.75, 17.56,0.04, 20.66,"P48+ZTF","2","None","None",True,True
+"2018 Sep 14",2458375.9267,"g", -16.10, 18.21,0.05, 20.69,"P48+ZTF","2","None","None",True,True
+"2018 Sep 15",2458376.8052,"g", -16.15, 18.15,0.05, 20.87,"P48+ZTF","2","None","None",True,True
+"2018 Sep 15",2458376.8062,"g", -16.17, 18.14,0.05, 20.90,"P48+ZTF","1","None","None",True,True
+"2018 Sep 15",2458376.8166,"g", -16.13, 18.17,0.05, 20.80,"P48+ZTF","2","None","None",True,True
+"2018 Sep 15",2458376.8529,"r", -16.72, 17.59,0.04, 20.79,"P48+ZTF","1","None","None",True,True
+"2018 Sep 15",2458376.8538,"r", -16.72, 17.59,0.04, 20.78,"P48+ZTF","2","None","None",True,True
+"2018 Sep 15",2458376.8696,"r", -16.76, 17.54,0.04, 20.76,"P48+ZTF","2","None","None",True,True
+"2018 Sep 16",2458377.8039,"r", -16.74, 17.57,0.04, 20.72,"P48+ZTF","2","None","None",True,True
+"2018 Sep 16",2458377.8490,"g", -16.10, 18.21,0.06, 20.92,"P48+ZTF","2","None","None",True,True
+"2018 Sep 16",2458377.8654,"g", -16.06, 18.25,0.06, 20.89,"P48+ZTF","2","None","None",True,True
+"2018 Sep 16",2458377.9110,"r", -16.73, 17.58,0.04, 20.61,"P48+ZTF","2","None","None",True,True
+"2018 Sep 16",2458377.9221,"r", -16.73, 17.58,0.03, 20.62,"P48+ZTF","2","None","None",True,True
+"2018 Sep 17",2458378.8272,"g", -16.04, 18.27,0.05, 20.95,"P48+ZTF","2","None","None",True,True
+"2018 Sep 17",2458378.8436,"g", -16.05, 18.25,0.05, 20.96,"P48+ZTF","2","None","None",True,True
+"2018 Sep 17",2458378.8935,"r", -16.70, 17.61,0.03, 20.76,"P48+ZTF","2","None","None",True,True
+"2018 Sep 17",2458378.9080,"r", -16.71, 17.60,0.03, 20.75,"P48+ZTF","2","None","None",True,True
+"2018 Sep 17",2458378.9183,"r", -16.70, 17.61,0.04, 20.51,"P48+ZTF","2","None","None",True,True
+"2018 Sep 18",2458379.7995,"r", -16.72, 17.59,0.04, 20.61,"P48+ZTF","2","None","None",True,True
+"2018 Sep 18",2458379.8203,"g", -16.03, 18.28,0.05, 20.79,"P48+ZTF","2","None","None",True,True
+"2018 Sep 18",2458379.8449,"g", -16.03, 18.28,0.06, 20.79,"P48+ZTF","2","None","None",True,True
+"2018 Sep 18",2458379.8458,"g", -16.02, 18.28,0.07, 20.84,"P48+ZTF","1","None","None",True,True
+"2018 Sep 18",2458379.8650,"g", -15.99, 18.32,0.05, 20.93,"P48+ZTF","2","None","None",True,True
+"2018 Sep 18",2458379.8799,"r", -16.70, 17.61,0.04, 20.72,"P48+ZTF","2","None","None",True,True
+"2018 Sep 18",2458379.8809,"r", -16.72, 17.59,0.04, 20.75,"P48+ZTF","1","None","None",True,True
+"2018 Sep 18",2458379.9055,"r", -16.69, 17.61,0.04, 20.64,"P48+ZTF","2","None","None",True,True
+"2018 Sep 19",2458380.6368,"g", -15.77, 18.54,0.06, 20.67,"P48+ZTF","2","None","None",True,True
+"2018 Sep 19",2458380.7574,"r", -16.66, 17.64,0.03, 21.15,"P48+ZTF","2","None","None",True,True
+"2018 Sep 19",2458380.7982,"r", -16.67, 17.64,0.05, 20.51,"P48+ZTF","2","None","None",True,True
+"2018 Sep 19",2458380.8278,"r", -16.68, 17.63,0.04, 20.61,"P48+ZTF","2","None","None",True,True
+"2018 Sep 19",2458380.8456,"g", -15.94, 18.36,0.06, 20.83,"P48+ZTF","2","None","None",True,True
+"2018 Sep 19",2458380.8698,"g", -15.97, 18.33,0.05, 20.95,"P48+ZTF","2","None","None",True,True
+"2018 Sep 19",2458380.9302,"r", -16.70, 17.61,0.03, 20.73,"P48+ZTF","2","None","None",True,True
+"2018 Sep 21",2458382.8264,"r", -16.64, 17.67,0.04, 20.31,"P48+ZTF","1","None","None",True,True
+"2018 Sep 21",2458382.8273,"r", -16.67, 17.63,0.04, 20.28,"P48+ZTF","2","None","None",True,True
+"2018 Sep 21",2458382.8454,"r", -16.67, 17.64,0.04, 20.35,"P48+ZTF","2","None","None",True,True
+"2018 Sep 21",2458382.8646,"r", -16.65, 17.65,0.05, 20.35,"P48+ZTF","2","None","None",True,True
+"2018 Sep 21",2458382.8884,"g", -15.88, 18.42,0.07, 20.27,"P48+ZTF","2","None","None",True,True
+"2018 Sep 21",2458382.9051,"g", -15.86, 18.45,0.05, 20.39,"P48+ZTF","1","None","None",True,True
+"2018 Sep 21",2458382.9061,"g", -15.85, 18.45,0.09, 20.40,"P48+ZTF","2","None","None",True,True
+"2018 Sep 21",2458382.9261,"g", -15.83, 18.47,0.07, 20.66,"P48+ZTF","2","None","None",True,True
+"2018 Sep 22",2458383.8052,"r", -16.63, 17.68,0.06, 20.16,"P48+ZTF","2","None","None",True,True
+"2018 Sep 22",2458383.8167,"r", -16.66, 17.64,0.04, 20.23,"P48+ZTF","2","None","None",True,True
+"2018 Sep 22",2458383.8861,"r", -16.64, 17.67,0.05, 20.12,"P48+ZTF","2","None","None",True,True
+"2018 Sep 22",2458383.9283,"g", -15.80, 18.51,0.08, 20.04,"P48+ZTF","2","None","None",True,True
+"2018 Sep 22",2458383.9509,"g", -15.85, 18.46,0.06, 20.24,"P48+ZTF","2","None","None",True,True
+"2018 Sep 22",2458383.9762,"g", -15.79, 18.52,0.07, 20.72,"P48+ZTF","2","None","None",True,True
+"2018 Sep 23",2458384.6663,"r", -16.64, 17.67,0.04, 19.69,"P48+ZTF","2","None","None",True,True
+"2018 Sep 23",2458384.6864,"r", -16.64, 17.67,0.06, 19.76,"P48+ZTF","2","None","None",True,True
+"2018 Sep 23",2458384.6972,"r", -16.61, 17.70,0.05, 19.85,"P48+ZTF","2","None","None",True,True
+"2018 Sep 23",2458384.8343,"g", -15.83, 18.48,0.10, 19.68,"P48+ZTF","2","None","None",True,True
+"2018 Sep 23",2458384.9655,"g", -15.76, 18.55,0.09, 19.71,"P48+ZTF","2","None","None",True,True
+"2018 Sep 24",2458385.7614,"r", -16.62, 17.69,0.05, 19.76,"P48+ZTF","2","None","None",True,True
+"2018 Sep 24",2458385.7623,"r", -16.61, 17.69,0.05, 19.83,"P48+ZTF","1","None","None",True,True
+"2018 Sep 24",2458385.7735,"r", -16.59, 17.72,0.05, 19.90,"P48+ZTF","2","None","None",True,True
+"2018 Sep 24",2458385.8061,"r", -16.60, 17.70,0.05, 19.86,"P48+ZTF","2","None","None",True,True
+"2018 Sep 24",2458385.8471,"g", -15.85, 18.46,0.11, 19.55,"P48+ZTF","2","None","None",True,True
+"2018 Sep 24",2458385.8481,"g", -15.71, 18.60,0.10, 19.59,"P48+ZTF","1","None","None",True,True
+"2018 Sep 24",2458385.8644,"g", -15.86, 18.44,0.09, 19.53,"P48+ZTF","2","None","None",True,True
+"2018 Sep 24",2458385.8857,"g", -15.73, 18.58,0.12, 19.46,"P48+ZTF","2","None","None",True,True
+"2018 Sep 25",2458386.6771,"g", -15.77, 18.54,0.10, 19.31,"P48+ZTF","2","None","None",True,True
+"2018 Sep 25",2458386.7966,"r", -16.64, 17.67,0.05, 19.73,"P48+ZTF","2","None","None",True,True
+"2018 Sep 25",2458386.8153,"r", -16.60, 17.71,0.05, 19.71,"P48+ZTF","2","None","None",True,True
+"2018 Sep 25",2458386.8344,"r", -16.60, 17.71,0.06, 19.73,"P48+ZTF","2","None","None",True,True
+"2018 Sep 25",2458386.8556,"r", -16.56, 17.75,0.02, 20.54,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Sep 25",2458386.9704,"g", -15.70, 18.61,0.12, 19.02,"P48+ZTF","2","None","None",True,True
+"2018 Sep 26",2458387.7316,"g", -15.72, 18.59,0.09, 19.46,"P48+ZTF","2","None","None",True,True
+"2018 Sep 26",2458387.7561,"g", -15.74, 18.57,0.09, 19.58,"P48+ZTF","2","None","None",True,True
+"2018 Sep 26",2458387.7818,"g", -15.77, 18.54,0.08, 19.72,"P48+ZTF","2","None","None",True,True
+"2018 Sep 26",2458387.9229,"r", -16.56, 17.74,0.05, 19.68,"P48+ZTF","2","None","None",True,True
+"2018 Sep 26",2458387.9426,"r", -16.52, 17.78,0.06, 19.46,"P48+ZTF","2","None","None",True,True
+"2018 Sep 26",2458387.9607,"r", -16.50, 17.81,0.13, 18.30,"P48+ZTF","2","None","None",True,True
+"2018 Sep 27",2458388.7452,"r", -16.58, 17.73,0.05, 19.95,"P48+ZTF","2","None","None",True,True
+"2018 Sep 27",2458388.7604,"r", -16.54, 17.77,0.05, 19.91,"P48+ZTF","1","None","None",True,True
+"2018 Sep 27",2458388.7613,"r", -16.56, 17.75,0.05, 19.95,"P48+ZTF","2","None","None",True,True
+"2018 Sep 27",2458388.7827,"r", -16.56, 17.75,0.04, 20.05,"P48+ZTF","2","None","None",True,True
+"2018 Sep 27",2458388.8148,"g", -15.68, 18.63,0.09, 19.84,"P48+ZTF","1","None","None",True,True
+"2018 Sep 27",2458388.8159,"g", -15.62, 18.69,0.09, 19.81,"P48+ZTF","2","None","None",True,True
+"2018 Sep 27",2458388.8359,"g", -15.68, 18.63,0.09, 19.74,"P48+ZTF","2","None","None",True,True
+"2018 Sep 27",2458388.8611,"g", -15.66, 18.65,0.10, 19.86,"P48+ZTF","2","None","None",True,True
+"2018 Sep 28",2458389.7517,"r", -16.57, 17.74,0.05, 20.11,"P48+ZTF","2","None","None",True,True
+"2018 Sep 28",2458389.7740,"r", -16.59, 17.72,0.05, 19.92,"P48+ZTF","2","None","None",True,True
+"2018 Sep 28",2458389.8018,"r", -16.52, 17.79,0.05, 19.92,"P48+ZTF","2","None","None",True,True
+"2018 Sep 28",2458389.8502,"g", -15.58, 18.72,0.09, 20.01,"P48+ZTF","2","None","None",True,True
+"2018 Sep 28",2458389.8574,"g", -15.65, 18.66,0.08, 19.98,"P48+ZTF","2","None","None",True,True
+"2018 Sep 28",2458389.8798,"g", -15.59, 18.71,0.10, 19.84,"P48+ZTF","2","None","None",True,True
+"2018 Sep 29",2458390.7109,"r", -16.51, 17.79,0.04, 20.24,"P48+ZTF","2","None","None",True,True
+"2018 Sep 29",2458390.7434,"r", -16.55, 17.76,0.04, 20.35,"P48+ZTF","2","None","None",True,True
+"2018 Sep 29",2458390.7532,"r", -16.55, 17.76,0.05, 20.26,"P48+ZTF","2","None","None",True,True
+"2018 Sep 29",2458390.8187,"g", -15.53, 18.77,0.10, 20.16,"P48+ZTF","2","None","None",True,True
+"2018 Sep 29",2458390.8357,"g", -15.72, 18.59,0.08, 20.01,"P48+ZTF","2","None","None",True,True
+"2018 Oct 09",2458400.7164,"r", -16.40, 17.91,0.05, 20.44,"P48+ZTF","2","None","None",True,True
+"2018 Oct 09",2458400.7173,"r", -16.44, 17.86,0.05, 20.59,"P48+ZTF","1","None","None",True,True
+"2018 Oct 09",2458400.7640,"g", -15.39, 18.92,0.08, 20.93,"P48+ZTF","2","None","None",True,True
+"2018 Oct 09",2458400.7773,"g", -15.37, 18.94,0.08, 20.90,"P48+ZTF","1","None","None",True,True
+"2018 Oct 09",2458400.7782,"g", -15.37, 18.94,0.09, 20.93,"P48+ZTF","2","None","None",True,True
+"2018 Oct 12",2458403.7760,"r", -16.31, 17.99,0.04, 19.98,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Oct 12",2458403.7778,"g", -15.26, 19.04,0.05, 20.34,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Oct 12",2458403.7795,"i", -16.46, 17.84,0.05, 19.17,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Oct 16",2458407.7742,"r", -16.33, 17.98,99.00, 17.92,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Oct 16",2458407.7759,"g", -15.36, 18.94,0.08, 19.81,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Oct 16",2458407.7776,"i", -16.48, 17.82,0.07, 18.71,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Oct 18",2458409.8432,"r", 99.0, 99.0,99.0, 18.86,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Oct 18",2458409.8450,"g", -15.18, 19.13,0.06, 19.79,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Oct 18",2458409.8467,"i", -16.44, 17.87,0.02, 20.35,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Oct 20",2458411.6759,"r", -16.29, 18.02,0.04, 19.45,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Oct 20",2458411.6777,"g", -15.10, 19.21,0.05, 20.74,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Oct 20",2458411.6794,"i", -16.42, 17.89,0.02, 20.53,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Oct 25",2458416.6087,"r", -16.22, 18.09,0.02, 20.43,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Oct 25",2458416.6104,"g", -15.14, 19.17,0.04, 20.93,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Oct 25",2458416.6121,"i", -16.46, 17.85,0.01, 20.47,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Nov 01",2458423.7493,"g", -14.99, 19.32,0.10, 20.64,"P48+ZTF","2","None","None",True,True
+"2018 Nov 01",2458423.7504,"g", -14.97, 19.33,0.13, 20.72,"P48+ZTF","1","None","None",True,True
+"2018 Nov 01",2458423.8008,"r", -16.19, 18.12,0.06, 20.29,"P48+ZTF","1","None","None",True,True
+"2018 Nov 01",2458423.8027,"r", -16.20, 18.10,0.05, 20.14,"P48+ZTF","2","None","None",True,True
+"2018 Nov 01",2458423.8139,"r", -16.19, 18.12,0.05, 20.22,"P48+ZTF","2","None","None",True,True
+"2018 Nov 02",2458424.6876,"g", -14.86, 19.45,0.12, 20.06,"P48+ZTF","2","None","None",True,True
+"2018 Nov 02",2458424.7442,"r", -16.17, 18.14,0.07, 19.40,"P48+ZTF","2","None","None",True,True
+"2018 Nov 02",2458424.7514,"r", -16.21, 18.10,0.07, 19.42,"P48+ZTF","2","None","None",True,True
+"2018 Nov 02",2458424.7726,"r", -16.14, 18.17,0.11, 19.21,"P48+ZTF","2","None","None",True,True
+"2018 Nov 03",2458425.6175,"r", -16.12, 18.18,0.06, 19.71,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Nov 03",2458425.6484,"g", -14.90, 19.41,0.11, 20.46,"P48+ZTF","2","None","None",True,True
+"2018 Nov 03",2458425.7238,"r", -16.13, 18.18,0.09, 19.42,"P48+ZTF","2","None","None",True,True
+"2018 Nov 03",2458425.7406,"r", -16.13, 18.18,0.13, 18.54,"P48+ZTF","2","None","None",True,True
+"2018 Nov 03",2458425.7517,"r", -16.26, 18.05,0.08, 19.44,"P48+ZTF","2","None","None",True,True
+"2018 Nov 04",2458426.6984,"g", -14.93, 19.37,0.11, 20.59,"P48+ZTF","2","None","None",True,True
+"2018 Nov 04",2458426.7146,"g", -14.85, 19.46,0.14, 20.54,"P48+ZTF","2","None","None",True,True
+"2018 Nov 04",2458426.7155,"g", -14.82, 19.49,0.14, 20.60,"P48+ZTF","1","None","None",True,True
+"2018 Nov 04",2458426.7499,"r", -16.18, 18.13,0.05, 20.51,"P48+ZTF","2","None","None",True,True
+"2018 Nov 04",2458426.7579,"r", -16.22, 18.08,0.05, 20.46,"P48+ZTF","2","None","None",True,True
+"2018 Nov 04",2458426.7588,"r", -16.19, 18.12,0.05, 20.44,"P48+ZTF","1","None","None",True,True
+"2018 Nov 05",2458427.7225,"r", -16.02, 18.29,0.20, 18.32,"P48+ZTF","2","None","None",True,True
+"2018 Nov 05",2458427.7312,"r", -16.19, 18.12,0.10, 19.28,"P48+ZTF","2","None","None",True,True
+"2018 Nov 05",2458427.7541,"r", -16.21, 18.10,0.09, 19.34,"P48+ZTF","2","None","None",True,True
+"2018 Nov 06",2458428.6835,"g", -14.98, 19.32,0.10, 20.71,"P48+ZTF","2","None","None",True,True
+"2018 Nov 06",2458428.6948,"g", -14.96, 19.35,0.10, 20.68,"P48+ZTF","2","None","None",True,True
+"2018 Nov 06",2458428.7256,"g", -14.94, 19.37,0.11, 20.69,"P48+ZTF","2","None","None",True,True
+"2018 Nov 06",2458428.7429,"r", -16.18, 18.13,0.05, 20.45,"P48+ZTF","2","None","None",True,True
+"2018 Nov 06",2458428.7601,"r", -16.19, 18.12,0.05, 20.49,"P48+ZTF","2","None","None",True,True
+"2018 Nov 06",2458428.7836,"r", -16.22, 18.09,0.06, 20.53,"P48+ZTF","2","None","None",True,True
+"2018 Nov 07",2458429.6989,"g", -14.91, 19.40,0.13, 20.92,"P48+ZTF","2","None","None",True,True
+"2018 Nov 07",2458429.7263,"g", -14.86, 19.45,0.12, 20.85,"P48+ZTF","1","None","None",True,True
+"2018 Nov 07",2458429.7272,"g", -14.94, 19.37,0.13, 20.89,"P48+ZTF","2","None","None",True,True
+"2018 Nov 07",2458429.7439,"g", -15.05, 19.26,0.12, 20.81,"P48+ZTF","2","None","None",True,True
+"2018 Nov 07",2458429.7702,"r", -16.19, 18.12,0.06, 20.63,"P48+ZTF","2","None","None",True,True
+"2018 Nov 07",2458429.7760,"r", -16.19, 18.12,0.04, 20.64,"P48+ZTF","2","None","None",True,True
+"2018 Nov 07",2458429.7829,"r", -16.19, 18.12,0.06, 20.52,"P48+ZTF","1","None","None",True,True
+"2018 Nov 07",2458429.7936,"r", -16.16, 18.15,0.07, 20.55,"P48+ZTF","2","None","None",True,True
+"2018 Nov 08",2458430.6041,"r", -16.19, 18.12,0.06, 20.60,"P48+ZTF","2","None","None",True,True
+"2018 Nov 08",2458430.6625,"g", -14.89, 19.42,0.09, 20.85,"P48+ZTF","2","None","None",True,True
+"2018 Nov 08",2458430.6967,"r", -16.18, 18.12,0.06, 20.69,"P48+ZTF","2","None","None",True,True
+"2018 Nov 08",2458430.7599,"g", -14.90, 19.41,0.10, 20.92,"P48+ZTF","2","None","None",True,True
+"2018 Nov 08",2458430.7719,"g", -14.86, 19.44,0.11, 20.99,"P48+ZTF","2","None","None",True,True
+"2018 Nov 09",2458431.6092,"g", -14.77, 19.53,0.13, 20.24,"P48+ZTF","2","None","None",True,True
+"2018 Nov 09",2458431.6496,"r", -16.09, 18.22,0.07, 19.98,"P48+ZTF","2","None","None",True,True
+"2018 Nov 09",2458431.6797,"r", -16.18, 18.13,0.10, 19.70,"P48+ZTF","2","None","None",True,True
+"2018 Nov 09",2458431.7262,"g", -14.86, 19.45,0.19, 19.98,"P48+ZTF","2","None","None",True,True
+"2018 Nov 10",2458432.7329,"g", -14.76, 19.55,0.12, 20.53,"P48+ZTF","2","None","None",True,True
+"2018 Nov 10",2458432.7646,"r", -16.16, 18.14,0.05, 20.25,"P48+ZTF","1","None","None",True,True
+"2018 Nov 10",2458432.7656,"r", -16.10, 18.21,0.05, 20.17,"P48+ZTF","2","None","None",True,True
+"2018 Nov 10",2458432.7777,"r", -16.13, 18.17,0.06, 20.19,"P48+ZTF","2","None","None",True,True
+"2018 Nov 11",2458433.6601,"g", -14.99, 19.32,0.15, 20.24,"P48+ZTF","2","None","None",True,True
+"2018 Nov 12",2458434.6269,"g", -14.84, 19.46,0.15, 20.30,"P48+ZTF","2","None","None",True,True
+"2018 Nov 12",2458434.6526,"g", -14.71, 19.60,0.21, 20.32,"P48+ZTF","2","None","None",True,True
+"2018 Nov 12",2458434.6846,"r", -16.10, 18.21,0.06, 20.12,"P48+ZTF","2","None","None",True,True
+"2018 Nov 12",2458434.7046,"r", -16.11, 18.20,0.07, 20.09,"P48+ZTF","2","None","None",True,True
+"2018 Nov 12",2458434.7585,"g", -14.75, 19.56,0.16, 20.19,"P48+ZTF","2","None","None",True,True
+"2018 Nov 12",2458434.7961,"r", -16.14, 18.17,0.06, 19.93,"P48+ZTF","2","None","None",True,True
+"2018 Nov 13",2458435.6823,"g", -14.77, 19.54,0.13, 20.35,"P48+ZTF","2","None","None",True,True
+"2018 Nov 13",2458435.6930,"g", -14.82, 19.49,0.15, 20.23,"P48+ZTF","2","None","None",True,True
+"2018 Nov 13",2458435.7192,"g", -14.78, 19.52,0.14, 20.29,"P48+ZTF","1","None","None",True,True
+"2018 Nov 13",2458435.7201,"g", -14.96, 19.35,0.13, 20.31,"P48+ZTF","2","None","None",True,True
+"2018 Nov 13",2458435.7652,"r", -16.08, 18.22,0.07, 19.93,"P48+ZTF","1","None","None",True,True
+"2018 Nov 13",2458435.7931,"r", -16.08, 18.23,0.07, 19.86,"P48+ZTF","2","None","None",True,True
+"2018 Nov 14",2458436.6889,"g", -14.74, 19.56,0.15, 20.07,"P48+ZTF","2","None","None",True,True
+"2018 Nov 14",2458436.7108,"g", -14.85, 19.46,0.16, 20.01,"P48+ZTF","2","None","None",True,True
+"2018 Nov 14",2458436.7343,"g", -14.69, 19.61,0.18, 20.11,"P48+ZTF","2","None","None",True,True
+"2018 Nov 14",2458436.7925,"r", -16.02, 18.29,0.13, 19.23,"P48+ZTF","2","None","None",True,True
+"2018 Nov 14",2458436.8282,"r", -16.05, 18.26,0.07, 19.12,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Nov 19",2458441.7668,"r", -15.98, 18.33,0.07, 19.63,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Nov 19",2458441.7795,"r", -16.02, 18.28,0.08, 19.48,"P48+ZTF","1","None","None",True,True
+"2018 Nov 25",2458447.8439,"r", -15.81, 18.50,0.10, 19.38,"P48+ZTF","1","None","None",True,True
+"2018 Nov 25",2458447.8478,"r", -15.95, 18.36,0.10, 19.24,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Dec 04",2458456.6732,"r", -15.60, 18.70,0.08, 20.26,"P48+ZTF","1","None","None",True,True
+"2018 Dec 04",2458456.7288,"r", -15.20, 19.11,0.13, 20.09,"P48+ZTF","2","None","None",True,False
+"2018 Dec 04",2458456.8208,"g", -14.28, 20.03,0.22, 20.02,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Dec 04",2458456.8224,"i", -15.87, 18.43,0.05, 20.04,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Dec 05",2458457.6457,"g", -15.20, 19.11,0.16, 20.16,"P48+ZTF","2","None","None",True,False
+"2018 Dec 05",2458457.7055,"r", -15.14, 19.17,0.13, 19.75,"P48+ZTF","2","None","None",True,False
+"2018 Dec 11",2458463.7046,"g", 99.0, 99.0,99.0, 99.00,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Dec 11",2458463.7063,"i", 99.0, 99.0,99.0, 99.00,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Dec 12",2458464.7632,"r", -15.26, 19.05,0.10, 19.98,"P48+ZTF","1","None","None",True,True
+"2018 Dec 16",2458468.7663,"r", -14.87, 19.44,0.12, 20.16,"P48+ZTF","1","None","None",True,True
+"2018 Dec 19",2458471.6774,"r", -15.95, 18.36,0.14, 19.02,"P48+ZTF","2","None","None",True,False
+"2018 Dec 19",2458471.7181,"r", -15.65, 18.66,0.17, 18.65,"P48+ZTF","2","None","None",True,False
+"2018 Dec 23",2458475.5770,"g", 99.0, 99.0,99.0, 20.59,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2018 Dec 23",2458475.5787,"i", -14.53, 19.77,0.09, 20.57,"P60+SEDM","None","Fremling Automated Pipeline PS1","PS1",True,True
+"2019 Jan 07",2458490.6343,"r", -14.37, 19.94,0.16, 20.11,"P48+ZTF","1","None","None",True,True
+"2019 Jul 06",2458670.9861,"r", -15.91, 18.40,0.08, 20.13,"P48+ZTF","2","None","None",True,False
+"2019 Jul 17",2458681.9113,"r", -15.85, 18.45,0.07, 19.70,"P48+ZTF","2","None","None",True,False
+"2019 Jul 17",2458681.9117,"r", -15.97, 18.34,0.07, 19.77,"P48+ZTF","3","None","None",True,False
+"2019 Jul 18",2458682.9133,"r", -15.89, 18.42,0.08, 19.95,"P48+ZTF","2","None","None",True,False
+"2019 Jul 18",2458682.9138,"r", -15.93, 18.38,0.07, 19.97,"P48+ZTF","3","None","None",True,False
+"2019 Jul 19",2458683.9076,"r", -15.96, 18.35,0.06, 20.00,"P48+ZTF","2","None","None",True,False
+"2019 Jul 19",2458683.9080,"r", -15.92, 18.38,0.06, 20.04,"P48+ZTF","3","None","None",True,False
+"2019 Jul 19",2458683.9312,"r", -16.14, 18.17,0.08, 19.97,"P48+ZTF","2","None","None",True,False
+"2019 Jul 19",2458683.9317,"r", -16.17, 18.14,0.07, 19.93,"P48+ZTF","3","None","None",True,False
+"2019 Jul 21",2458685.9280,"r", -15.92, 18.39,0.06, 20.13,"P48+ZTF","2","None","None",True,False
+"2019 Jul 21",2458685.9284,"r", -15.95, 18.35,0.07, 20.22,"P48+ZTF","3","None","None",True,False
+"2019 Jul 22",2458686.9073,"r", -15.94, 18.37,0.08, 20.05,"P48+ZTF","2","None","None",True,False
+"2019 Jul 22",2458686.9077,"r", -15.93, 18.38,0.06, 20.10,"P48+ZTF","3","None","None",True,False
+"2019 Jul 22",2458686.9151,"r", -16.14, 18.17,0.06, 19.89,"P48+ZTF","2","None","None",True,False
+"2019 Jul 22",2458686.9155,"r", -16.11, 18.20,0.08, 19.87,"P48+ZTF","3","None","None",True,False
+"2019 Aug 13",2458708.9050,"g", -15.62, 18.69,0.11, 20.06,"P48+ZTF","2","None","None",True,False
+"2019 Aug 13",2458708.9054,"g", -15.57, 18.74,0.10, 20.06,"P48+ZTF","3","None","None",True,False
+"2019 Aug 13",2458708.9077,"g", -15.41, 18.90,0.11, 19.88,"P48+ZTF","2","None","None",True,False
+"2019 Aug 13",2458708.9082,"g", -15.35, 18.96,0.12, 19.90,"P48+ZTF","3","None","None",True,False

@@ -11,14 +11,14 @@ print('the flux is',flux)
 
 # convert data downloaded from the Marshall into the format for PhotoFit
 
-data_path='./data_test_ztf19aatqzim.txt'# a file downloaded from the Marshall
-output_path='./data_formated_aatqzim.txt' #path to the file with the right format
+data_path='./data_Marshall_test.txt'# a file downloaded from the Marshall
+output_path='./data_formatted_test.txt' #path to the file with the right format
 PhotoManip_fun.read_data_Marshall_simple(data_path,no99=True,filters_directory=filters_directory,output_path=output_path)
 
 
 # calculate the "t0" of the light curve using the 'r' band
 days_rising=10
-tref=PhotoManip_fun.tref_from_P48('./data_formated_aatqzim.txt',band='r',days_rising=days_rising)[0]
+tref=PhotoManip_fun.tref_from_P48('./data_formatted_test.txt',band='r',days_rising=days_rising)[0]
 
 # calculate the "t0" of the light curve using the 'g' band
 '''
