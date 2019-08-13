@@ -27,7 +27,7 @@
 * `csv`
 
 ## How to run `PhotoManip`?
-Before running anything, you first need to define the path of a directory where all your transmission curves are stored. We provide such a directory with the package.
+Before running anything, you first need to define the path of a directory where all your transmission curves are stored. ** We provide such a directory together with the package! **.
 ```python
 >>> import PhotoManip
 >>> from PhotoManip import PhotoManip_fun

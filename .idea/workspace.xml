@@ -46,8 +46,8 @@
       <file leaf-file-name="test_photomanip.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PhotoManip/test/test_photomanip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="88" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -458,8 +458,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PhotoManip/test/test_photomanip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="3" column="88" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
