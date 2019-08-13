@@ -81,7 +81,7 @@ tref=PhotoManip_fun.tref_from_P48('./data_formated_aatqzim.txt',band=band,days_r
 
 The code will first show you the light curve and nmber of points to include in the fit, and warn you to adjust the `days_rising` parameter.
 <p align="center">
-  <img src="./test/results_tref_calculator_from_P48R/lc_and_rising_piece.png" width="350">
+  <img src="./PhotoManip/test/results_tref_calculator_from_P48R/lc_and_rising_piece.png" width="350">
 </p>
 
 It will the run mcmc to model the rising chunk with both a concave exponent and a power law, output plots and summarize the results for you:
