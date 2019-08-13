@@ -3,9 +3,8 @@
 
 [![PyPI](https://img.shields.io/pypi/v/PhotoManip.svg?style=flat-square)](https://pypi.python.org/pypi/PhotoManip)
 
-## Documentation
-
 ## Credit
+If you use PhotoManip, please cite Soumagnac et al. 2019 (in preparation)
 
 ## How to install `PhotoManip`?
 

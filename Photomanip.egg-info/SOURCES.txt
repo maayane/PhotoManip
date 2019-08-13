@@ -1,0 +1,16 @@
+README.md
+setup.py
+PhotoManip.egg-info/PKG-INFO
+PhotoManip.egg-info/SOURCES.txt
+PhotoManip.egg-info/dependency_links.txt
+PhotoManip.egg-info/requires.txt
+PhotoManip.egg-info/top_level.txt
+Photomanip/PhotoManip_fun.py
+Photomanip/__init__.py
+Photomanip/class_chi2.py
+Photomanip/fitter_general.py
+Photomanip.egg-info/PKG-INFO
+Photomanip.egg-info/SOURCES.txt
+Photomanip.egg-info/dependency_links.txt
+Photomanip.egg-info/requires.txt
+Photomanip.egg-info/top_level.txt

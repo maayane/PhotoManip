@@ -8,8 +8,8 @@ here = path.abspath(path.dirname(__file__))
 #    long_description = f.read()
 
 setup(
-    name='Photomanip',
-    version='0.0.1',
+    name='PhotoManip',
+    version='0.0.2',
     #description=''
     #long_description=long_description,
     #long_description_content_type='text/markdown',    
