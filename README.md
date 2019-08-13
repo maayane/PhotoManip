@@ -80,14 +80,65 @@ tref=PhotoManip_fun.tref_from_P48('./data_formated_aatqzim.txt',band=band,days_r
 ```
 
 The code will first show you the light curve and nmber of points to include in the fit, and warn you to adjust the `days_rising` parameter.
+```python
+***************************************************
+******* IMPORTANT CHECK BEFORE YOU PROCEED ********
+The red points shwon on the plot are the points which will be used for the fit.Adjust the "days_rising" parameter of Photomanip_fun.tref_from_P48, untill the red points cover all (and do not go beyond) the rising part of the light curve!
+***************************************************
+```
+
+
 <p align="center">
   <img src="./PhotoManip/test/results_tref_calculator_from_P48R/lc_and_rising_piece.png" width="350">
 </p>
 
 It will the run mcmc to model the rising chunk with both a concave exponent and a power law, output plots and summarize the results for you:
+```python
+*************************************************************
+****** CALCULATION OF tref (FIT WITH CONCAVE EXPONENT) ******
+****************  eo*[1-exp(-[t-tref]/to)]   ****************
+*************************************************************
+*** EMCEE run ***
+Mean acceptance fraction: 0.53524
+*** Calculation of the maximum likelihood values ***
+the best fit param are [  2.57541269e-16   3.62989755e+00   2.45835088e+06] and the corrisponding chi^2 is 25.752805826227736
+the reduced chi^2 is 0.505
+*** Plots of the best fit solution ***
+*** Plots of the 2D distributions ***
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+*** Plots of the 1D distributions ***
+********************************************
+when fitting whith the exponent, the best fit is [  2.57541269e-16   3.62989755e+00   2.45835088e+06], with sigma is [  1.60233310e-16   6.24634462e+00   1.33451876e-01]
+******************************************************
+****** CALCULATION OF tref (FIT WITH POWER LAW) ******
+*************        a(t-tref)^n        **************
+******************************************************
+*** EMCEE run ***
+Mean acceptance fraction: 0.59778
+*** Calculation of the maximum likelihood values ***
+the best fit param are [  1.11625447e-16   3.58772217e-01   2.45835171e+06] and the corrisponding chi^2 is 33.4410034808209
+the reduced chi^2 is 0.6557
+*** Plots of the best fit solution ***
+*** Plots of the 2D distributions ***
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+*** Plots of the 1D distributions ***
+********************************************
+when fitting whith the power law, the best fit is [  1.11625447e-16   3.58772217e-01   2.45835171e+06], with sigma is [  3.30022991e-18   1.64571738e-02   5.18314866e-02]
+**********************************************************
+****** SUMMARY OF tref CALCULATION WITH BOTH MODELS ******
+**********************************************************
+exponential:
+t_ref=2458350.876016173, chi2_reduced=0.5049569769848575
+power law:
+t_ref=2458351.707039889, chi2_reduced=0.6557059506043315
+the best fit is obtained with the exponential, i.e. tref=2458350.876016173
+```
 
-
-All plots can be found in the `` directory.
+All plots can be found in the `results_tref_calculator_from_P48R` directory (or `results_tref_calculator_from_P48G` depending on the band you chose).
  
 
 ## Give it a try with the test data!

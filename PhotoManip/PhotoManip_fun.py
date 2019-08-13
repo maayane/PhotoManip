@@ -892,11 +892,12 @@ def tref_from_P48(path_to_data, tref_assumed=None, band='r',days_rising=10):
     pylab.xlabel(r"time (JD)")
     pylab.ylabel(r"flux $[erg/s/cm^2/\AA]$")
     pylab.tight_layout()
+    pylab.legend()
     if band=='r':
         pylab.savefig('results_tref_calculator_from_P48R/lc_and_rising_piece.png')
     elif band=='g':
         pylab.savefig('results_tref_calculator_from_P48R/lc_and_rising_piece.png')
-    pylab.legend()
+
 
 
     print('***************************************************')
