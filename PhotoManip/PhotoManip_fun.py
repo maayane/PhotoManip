@@ -801,6 +801,8 @@ class model_powerlaw_withref(object):  # given a,n, an array of a(x-xref)^n
         g[self.x[:] - self.xref < 0, 1] = 0.
         return g
 
+'''
+WORK IN PROGRESS
 def tref_from_P48(path_to_data, tref_assumed=None, band='r',days_rising=10):
     """Description: fit the P48_R light curve with an exponent or a power law to deduce the explosion date
     Input  :- a path to a file where the data is in the following format, 'jd','mag','magerr','flux','fluxerr','absmag','absmagerr','filter', e.g. after running
@@ -871,12 +873,6 @@ def tref_from_P48(path_to_data, tref_assumed=None, band='r',days_rising=10):
         data_P48['flux'] = dict_all['flux'][np.asarray(dict_all['filter']) == 'g_p48']
         data_P48['fluxerr'] = dict_all['fluxerr'][np.asarray(dict_all['filter']) == 'g_p48']
 
-    '''
-    pylab.figure()
-    pylab.errorbar(data_P48['days'], data_P48['flux'], yerr=data_P48['fluxerr'])
-    pylab.grid()
-    '''
-
     condition_rise = data_P48['days'] - np.min(data_P48['days']) <= days_rising
     data_P48_rise = dict()
     data_P48_rise['days'] = data_P48['days'][condition_rise]
@@ -930,20 +926,6 @@ def tref_from_P48(path_to_data, tref_assumed=None, band='r',days_rising=10):
     prior_to = np.array([0, 50])
     prior_tref = np.array([tref_assumed - 2.5, tref_assumed + 1])
 
-    '''
-    pylab.figure()
-    pylab.errorbar(data_P48_rise['days'], data_P48_rise['flux'], yerr=0.5 * data_P48_rise['fluxerr'], fmt='r.')
-    pylab.plot(model_exponent_concav_pos_withref(eo=eo_assumed, to=to_assumed, tref=tref_assumed,
-                                                        t=data_P48_rise['days']).model_array()[:, 0],
-               model_exponent_concav_pos_withref(eo=eo_assumed, to=to_assumed, tref=tref_assumed,
-                                                        t=data_P48_rise['days']).model_array()[:, 1])
-    pylab.xlabel(r"time (JD)")
-    pylab.ylabel(r"flux $[erg/s/cm^2/\AA]$")
-    # pylab.axvline(JD_peak,color='blue',linestyle='--')
-    pylab.title('An attempt to check the prior range')
-    pylab.title('P48 R photometry and exponnential fit')
-    pylab.axvline(tref_assumed)
-    '''
 
     #print("********** FIT WITH A POSITIVE CONCAVE EXPONENT ************")
 
@@ -1003,22 +985,6 @@ def tref_from_P48(path_to_data, tref_assumed=None, band='r',days_rising=10):
     prior_n = np.array([0, 1])
     # prior_tref=np.array([tref_assumed-20,tref_assumed+1])
 
-    '''
-    pylab.figure()
-    pylab.errorbar(data_P48_rise['days'], data_P48_rise['flux'], yerr=0.5 * data_P48_rise['fluxerr'], fmt='r.')
-    pylab.plot(model_powerlaw_withref(a=a_assumed, n=n_assumed, xref=tref_assumed,
-                                             x=data_P48_rise['days']).model_array()[:, 0],
-               model_powerlaw_withref(a=a_assumed, n=n_assumed, xref=tref_assumed,
-                                             x=data_P48_rise['days']).model_array()[:, 1])
-    pylab.xlabel(r"time (JD)")
-    pylab.ylabel(r"flux $[erg/s/cm^2/\AA]$")
-    # pylab.axvline(JD_peak,color='blue',linestyle='--')
-    pylab.title('An attempt to check the prior range')
-    pylab.title('P48 R photometry and power law fit')
-    pylab.axvline(tref_assumed)
-    #pylab.show()
-    #pdb.set_trace()
-    '''
 
     print('******************************************************')
     print('****** CALCULATION OF tref (FIT WITH POWER LAW) ******')
@@ -1094,4 +1060,4 @@ def tref_from_P48(path_to_data, tref_assumed=None, band='r',days_rising=10):
     else:
         print('there is not enough data to calculate chi2/dof and return a winner')
         pylab.show()
-
+'''
