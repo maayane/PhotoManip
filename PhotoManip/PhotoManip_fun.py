@@ -629,23 +629,23 @@ def read_data_Marshall_simple(path,no99=False,filters_directory=None,output_path
             data_full['filter'][i]='i_sdss'
         if (data_full['filter'][i]=='u') & (data_full['instr'][i]=='P60+SEDM'):
             data_full['filter'][i]='u_sdss'
-        if (data_full['filter'][i].lower()=='u') & (data_full['instr'][i]=='Swift+UVOT'):
+        if (data_full['filter'][i].lower()=='u') & (data_full['instr'][i]in ['Swift+UVOT','SWIFT+UVOT']):
             data_full['filter'][i]='u_swift'
-        if (data_full['filter'][i].lower()=='uuu') & (data_full['instr'][i]=='Swift+UVOT'):
+        if (data_full['filter'][i].lower()=='uuu') & (data_full['instr'][i] in ['Swift+UVOT','SWIFT+UVOT']):
             data_full['filter'][i]='u_swift'
-        if (data_full['filter'][i].lower()=='v') & (data_full['instr'][i]=='Swift+UVOT'):
+        if (data_full['filter'][i].lower()=='v') & (data_full['instr'][i] in ['Swift+UVOT','SWIFT+UVOT']):
             data_full['filter'][i]='v_swift'
-        if (data_full['filter'][i].lower()=='uvv') & (data_full['instr'][i]=='Swift+UVOT'):
+        if (data_full['filter'][i].lower()=='uvv') & (data_full['instr'][i] in ['Swift+UVOT','SWIFT+UVOT']):
             data_full['filter'][i]='v_swift'
-        if (data_full['filter'][i].lower()=='b') & (data_full['instr'][i]=='Swift+UVOT'):
+        if (data_full['filter'][i].lower()=='b') & (data_full['instr'][i] in ['Swift+UVOT','SWIFT+UVOT']):
             data_full['filter'][i]='b_swift'
-        if (data_full['filter'][i].lower()=='ubb') & (data_full['instr'][i]=='Swift+UVOT'):
+        if (data_full['filter'][i].lower()=='ubb') & (data_full['instr'][i] in ['Swift+UVOT','SWIFT+UVOT']):
             data_full['filter'][i]='b_swift'
-        if (data_full['filter'][i].lower()=='uw1') & (data_full['instr'][i]=='Swift+UVOT'):
+        if (data_full['filter'][i].lower()=='uw1') & (data_full['instr'][i] in ['Swift+UVOT','SWIFT+UVOT']):
             data_full['filter'][i]='uvw1'
-        if (data_full['filter'][i].lower()=='uw2') & (data_full['instr'][i]=='Swift+UVOT'):
+        if (data_full['filter'][i].lower()=='uw2') & (data_full['instr'][i] in ['Swift+UVOT','SWIFT+UVOT']):
             data_full['filter'][i]='uvw2'
-        if (data_full['filter'][i].lower()=='um2') & (data_full['instr'][i]=='Swift+UVOT'):
+        if (data_full['filter'][i].lower()=='um2') & (data_full['instr'][i] in ['Swift+UVOT','SWIFT+UVOT']):
             data_full['filter'][i]='uvm2'
         if (data_full['filter'][i].lower()=='r') & (data_full['instr'][i]=='LT+IOO'):
             data_full['filter'][i]='r_sdss'
@@ -676,17 +676,17 @@ def read_data_Marshall_simple(path,no99=False,filters_directory=None,output_path
             [P, wav] = make_filter_object([[str('sdss'), 'i_sdss']],filters_directory=filters_directory)
         if (data_full['filter'][i]=='u_sdss') & (data_full['instr'][i]=='P60+SEDM'):
             [P, wav] = make_filter_object([[str('sdss'), 'u_sdss']],filters_directory=filters_directory)
-        if (data_full['filter'][i].lower()=='u_swift') & (data_full['instr'][i]=='Swift+UVOT'):
+        if (data_full['filter'][i].lower()=='u_swift') & (data_full['instr'][i] in ['Swift+UVOT','SWIFT+UVOT']):
             [P, wav] = make_filter_object([[str('swift'), 'u_swift']],filters_directory=filters_directory)
-        if (data_full['filter'][i].lower()=='v_swift') & (data_full['instr'][i]=='Swift+UVOT'):
+        if (data_full['filter'][i].lower()=='v_swift') & (data_full['instr'][i] in ['Swift+UVOT','SWIFT+UVOT']):
             [P, wav] = make_filter_object([[str('swift'), 'v_swift']],filters_directory=filters_directory)
-        if (data_full['filter'][i].lower()=='b_swift') & (data_full['instr'][i]=='Swift+UVOT'):
+        if (data_full['filter'][i].lower()=='b_swift') & (data_full['instr'][i] in ['Swift+UVOT','SWIFT+UVOT']):
             [P, wav] = make_filter_object([[str('swift'), 'b_swift']],filters_directory=filters_directory)
-        if (data_full['filter'][i].lower()=='uvw1') & (data_full['instr'][i]=='Swift+UVOT'):
+        if (data_full['filter'][i].lower()=='uvw1') & (data_full['instr'][i] in ['Swift+UVOT','SWIFT+UVOT']):
             [P, wav] = make_filter_object([[str('swift'), 'uvw1']],filters_directory=filters_directory)
-        if (data_full['filter'][i].lower()=='uvw2') & (data_full['instr'][i]=='Swift+UVOT'):
+        if (data_full['filter'][i].lower()=='uvw2') & (data_full['instr'][i] in ['Swift+UVOT','SWIFT+UVOT']):
             [P, wav] = make_filter_object([[str('swift'), 'uvw2']],filters_directory=filters_directory)
-        if (data_full['filter'][i].lower()=='uvm2') & (data_full['instr'][i]=='Swift+UVOT'):
+        if (data_full['filter'][i].lower()=='uvm2') & (data_full['instr'][i] in ['Swift+UVOT','SWIFT+UVOT']):
             [P, wav] = make_filter_object([[str('swift'), 'uvm2']],filters_directory=filters_directory)
         if (data_full['filter'][i]=='u_sdss') & (data_full['instr'][i]=='LT+IOO'):
             [P, wav] = make_filter_object([[str('sdss'), 'u_sdss']],filters_directory=filters_directory)
