@@ -9,7 +9,7 @@ here = path.abspath(path.dirname(__file__))
 
 setup(
     name='PhotoManip',
-    version='0.0.2',
+    version='0.0.5',
     #description=''
     #long_description=long_description,
     #long_description_content_type='text/markdown',    

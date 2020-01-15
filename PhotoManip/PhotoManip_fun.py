@@ -801,6 +801,322 @@ class model_powerlaw_withref(object):  # given a,n, an array of a(x-xref)^n
         g[self.x[:] - self.xref < 0, 1] = 0.
         return g
 
+def tref_from_P48(path_to_data, tref_assumed=None, tref_priors=None,band='r',days_rising=10, already_run_mcmc_exp=False,
+                  already_run_calc_all_chis_exp=False, already_plot_exp=False, already_run_mcmc_power=False,
+                  already_run_calc_all_chis_power=False, already_plot_power=False,nwalkers=200,
+                  num_steps=1000,eo_prior=[0, 1e-14],to_prior=[0,50],a_prior=[1e-17, 1e-15],n_prior=[0,1]):
+    """Description: fit the P48_R light curve with an exponent or a power law to deduce the explosion date
+    Input  :- a path to a file where the data is in the following format, 'jd','mag','magerr','flux','fluxerr','absmag','absmagerr','filter', e.g. after running
+    Read_data.read_data_Marshall_simple() on some Marshall extracted data.
+            -the assumed explosion date. If None, it will be taken as the minimum of the data
+            -the number of days to fit (i.e. the number of days during which the LC is rising)
+            -the band to use. the default is 'r': P48_r. If set to g, will be 'p48_g'
+            -already_run.... these are False by default, but you can set them to True if you ran the analysis once already and only want to see the output
+            -number of walkers in mcmc
+            -number of steps in mcmc
+            -prior on eo (exponential law)
+            -prior on to (exponential law)
+            -prior on a (power law)
+            -prior on n (power law)
+    Output :-
+    Tested : ?
+         By : Maayane T. Soumagnac Nov 2019
+        URL :
+    Example: samples=fitter_general.emcee_n_param(ndim=2,model_nparam=model_lo_to,prior_param=[prior_alpha,prior_tref],data=my_data,uncertainties=errors,initial_conditions=[alpha_true,tref_true],flatchain_path='output_test_fitter_general/flatchain_test.txt',already_run=False)
+    Reliable:  """
+    if band=='r':
+        if os.path.exists('results_tref_calculator_from_P48R'):
+            print('the output directory,results_tref_calculator_from_P48R exists already')
+        else:
+            os.mkdir('results_tref_calculator_from_P48R')
+
+        output_mcmc_exp = 'results_tref_calculator_from_P48R/exp'
+        output_mcmc_power = 'results_tref_calculator_from_P48R/power'
+    elif band=='g':
+        if os.path.exists('results_tref_calculator_from_P48G'):
+            print('the output directory,results_tref_calculator_from_P48G exists already')
+        else:
+            os.mkdir('results_tref_calculator_from_P48G')
+
+        output_mcmc_exp = 'results_tref_calculator_from_P48G/exp'
+        output_mcmc_power = 'results_tref_calculator_from_P48G/power'
+
+    if os.path.exists(output_mcmc_exp) == False:
+        os.mkdir(output_mcmc_exp)
+
+    if os.path.exists(output_mcmc_power) == False:
+        os.mkdir(output_mcmc_power)
+
+    # print(dict_ZTF_Marshal)
+
+
+    ########################################## plots the bolometric luminosity and R flux ###########################################
+
+    dict_all = read_data_from_file.read_data_into_numpy_array(path_to_data, header=True)[
+        2]  # ['jd','mag','magerr','flux','fluxerr','absmag','absmagerr','filter']
+
+    print(dict_all)
+    condition = (dict_all['mag'] != 99.0) & (dict_all['absmagerr'] != 99.0)
+
+    # remove 99
+    for j in dict_all.keys():
+        if j not in ['mag', 'absmagerr']:
+            print('the key is', j)
+            print('the dimensions of data_dicts[j] is', np.shape(dict_all[j]))
+            print("the dimension of data_dicts['mag'] is", np.shape(dict_all['mag']))
+            print('the dimension of the boolean is', np.shape([dict_all['mag'] != 99.0]))
+            dict_all[j] = dict_all[j][condition]
+    dict_all['mag'] = dict_all['mag'][condition]
+    dict_all['absmagerr'] = dict_all['absmagerr'][condition]
+
+    data_P48 = dict()
+
+    if band=='r':
+        data_P48['days'] = dict_all['jd'][np.asarray(dict_all['filter']) == 'r_p48']
+        data_P48['flux'] = dict_all['flux'][np.asarray(dict_all['filter']) == 'r_p48']
+        data_P48['fluxerr'] = dict_all['fluxerr'][np.asarray(dict_all['filter']) == 'r_p48']
+    elif band=='g':
+        data_P48['days'] = dict_all['jd'][np.asarray(dict_all['filter']) == 'g_p48']
+        data_P48['flux'] = dict_all['flux'][np.asarray(dict_all['filter']) == 'g_p48']
+        data_P48['fluxerr'] = dict_all['fluxerr'][np.asarray(dict_all['filter']) == 'g_p48']
+
+    pylab.figure()
+    pylab.errorbar(data_P48['days'], data_P48['flux'], yerr=data_P48['fluxerr'])
+    pylab.grid()
+    pylab.show()
+    # pdb.set_trace()
+    # data_P48=np.zeros((np.shape(data_P48_R_days)[0],3))
+
+
+    condition_rise = data_P48['days'] - np.min(data_P48['days']) <= days_rising
+    data_P48_rise = dict()
+    data_P48_rise['days'] = data_P48['days'][condition_rise]
+    data_P48_rise['flux'] = data_P48['flux'][condition_rise]
+    data_P48_rise['fluxerr'] = data_P48['fluxerr'][condition_rise]
+
+    pylab.figure()
+    pylab.plot(data_P48['days'], data_P48['flux'], 'bo', label='all the data')
+    pylab.plot(data_P48_rise['days'], data_P48_rise['flux'], 'ro', label='data to be fitted')
+    pylab.axvline(np.max(data_P48_rise['days']))
+    pylab.grid()
+    pylab.legend()
+    pylab.show()
+
+    ########################################## fit the rising chunk with an exponent (0 for x<xref) ###########################################
+
+
+    my_data = np.zeros((np.shape(data_P48_rise['days'])[0], 2))
+    my_data[:, 0] = data_P48_rise['days']
+    my_data[:, 1] = data_P48_rise['flux']
+
+    ########################################## fit the rising chunk with an exponent ###########################################
+
+    eo_assumed = 1e-15
+    to_assumed = 15.
+
+    if tref_assumed == None:
+        tref_assumed = np.min(data_P48_rise['days'])
+
+    if tref_priors == None:
+        prior_tref= np.array([tref_assumed - 20, tref_assumed + 1])
+    else:
+        prior_tref = np.array(tref_priors)
+
+
+    prior_eo = np.array(eo_prior)
+    prior_to = np.array(to_prior)
+
+
+
+    pylab.figure()
+    pylab.errorbar(data_P48_rise['days'], data_P48_rise['flux'], yerr=0.5 * data_P48_rise['fluxerr'], fmt='r.')
+    pylab.plot(models.model_exponent_concav_pos_withref(eo=eo_assumed, to=to_assumed, tref=tref_assumed,
+                                                        t=data_P48_rise['days']).model_array()[:, 0],
+               models.model_exponent_concav_pos_withref(eo=eo_assumed, to=to_assumed, tref=tref_assumed,
+                                                        t=data_P48_rise['days']).model_array()[:, 1])
+    pylab.xlabel(r"time (JD)")
+    pylab.ylabel(r"flux $[erg/s/cm^2/\AA]$")
+    # pylab.axvline(JD_peak,color='blue',linestyle='--')
+    pylab.title('An attempt to check the prior range')
+    pylab.title('P48 R photometry and exponnential fit')
+    pylab.axvline(tref_assumed)
+
+    print("********** FIT WITH A POSITIVE CONCAVE EXPONENT ************")
+
+    output_mcmc = output_mcmc_exp
+
+    samples = fitter_general.emcee_n_param(3, models.model_exponent_concav_pos_withref,
+                                           prior_param=[prior_eo, prior_to, prior_tref],
+                                           data=my_data, uncertainties=data_P48_rise['fluxerr'],
+                                           initial_conditions=[eo_assumed, to_assumed, tref_assumed],
+                                           nwalkers=nwalkers, num_steps=num_steps, flatchain_path=output_mcmc + '/flatchain.txt',
+                                           already_run=already_run_mcmc_exp)
+
+    best_exp = fitter_general.calc_best_fit_n_param(ndim=3, model_nparam=models.model_exponent_concav_pos_withref,
+                                                    flatchain_path=output_mcmc + '/flatchain.txt',
+                                                    data=my_data, uncertainties=data_P48_rise['fluxerr'],
+                                                    winners=100,
+                                                    output_file_path=output_mcmc,
+                                                    bounds=[prior_eo, prior_to, prior_tref],
+                                                    already_run_calc_all_chis=already_run_calc_all_chis_exp,
+                                                    show_plots=False)
+    # print('reduced chi2 is',best_exp[-1]/(np.shape(my_data)[0]-3))
+    # pdb.set_trace()
+    if np.shape(my_data)[0] - 3 !=0:
+        chi2_exp = best_exp[-1] / (np.shape(my_data)[0] - 3)
+    bests = best_exp[:-1]
+    if already_plot_exp != True:
+        fitter_general.plot_opt_fit_n_param(3, models.model_exponent_concav_pos_withref, bests, my_data,
+                                            flatchain_path=output_mcmc + '/flatchain.txt',
+                                            uncertainties=data_P48_rise['fluxerr'], output_file_path=output_mcmc,
+                                            xlabel=None, ylabel=None)
+
+        triangle = fitter_general.plot_2D_distributions(
+            flatchain_path=output_mcmc + '/flatchain.txt', bests=bests, title='triangle',
+            output_file_path=output_mcmc, parameters_labels=['eo', 'to', 'tref'])
+        #histos = fitter_general.plot_1D_marginalized_distribution(
+        #    flatchain_path=output_mcmc + '/flatchain.txt', bests=bests,
+        #    output_pdf_file_path=output_mcmc, output_txt_file_path=output_mcmc, parameters_labels=['eo', 'to', 'tref'],
+        #    number_bins=1000)
+        histos = fitter_general.plot_1D_marginalized_distribution_mini_interval(flatchain_path=output_mcmc + '/flatchain.txt', bests=bests, output_pdf_file_path=output_mcmc,
+                                                        output_txt_file_path=output_mcmc,
+                                                        parameters_labels=['eo', 'to', 'tref'], number_bins=1000)
+    print('********************************************')
+    print('when fitting whith the exponent, the best fit is {0}, with sigma is {1}'.format(bests[:], np.genfromtxt(
+        output_mcmc + '/1sigma_mini.txt')[:, 2]))
+    # print('when fitting whith the power law, the best fit is {0}, with sigma is {1}'.format(bests[:-1],np.genfromtxt('tref_calculator_results_powerlaw/1sigma.txt')[:,2])
+    best_tref = bests[2]
+    print('tmin-tref={0}'.format(-bests[2] + np.min(data_P48_rise['days'])))
+    print('tbo=tpeak-tref={0}'.format(np.max(data_P48_rise['days']) - bests[2]))
+    print('the characteristic timescale to of the exponent is {0}'.format(bests[1]))
+    print('********************************************')
+    best_fit = models.model_exponent_concav_pos_withref(bests[0], bests[1], bests[2],
+                                             np.linspace(np.min(prior_tref), np.max(my_data[:, 0]),1000)).model_array()
+
+    pylab.figure()
+    pylab.plot(best_fit[:,0],best_fit[:,1],'b-')
+    pylab.plot(my_data[:, 0], my_data[:, 1],'ro')
+    ax=pylab.gca()
+    ax.axvspan(np.min(prior_tref),np.max(prior_tref), alpha=0.5, color='yellow')
+    #pylab.show()
+    #pdb.set_trace()
+
+    #pylab.show()
+    #pdb.set_trace()
+
+    ########################################## fit the rising chunk with a power law ###########################################
+
+    a_assumed = 1e-16
+    n_assumed = 0.5
+    if tref_assumed==None:
+        tref_assumed = np.min(data_P48_rise['days'])
+
+    prior_a = np.array(a_prior)
+    prior_n = np.array(n_prior)
+    # prior_tref=np.array([tref_assumed-20,tref_assumed+1])
+
+    pylab.figure()
+    pylab.errorbar(data_P48_rise['days'], data_P48_rise['flux'], yerr=0.5 * data_P48_rise['fluxerr'], fmt='r.')
+    pylab.plot(models.model_powerlaw_withref(a=a_assumed, n=n_assumed, xref=tref_assumed,
+                                             x=data_P48_rise['days']).model_array()[:, 0],
+               models.model_powerlaw_withref(a=a_assumed, n=n_assumed, xref=tref_assumed,
+                                             x=data_P48_rise['days']).model_array()[:, 1])
+    pylab.xlabel(r"time (JD)")
+    pylab.ylabel(r"flux $[erg/s/cm^2/\AA]$")
+    # pylab.axvline(JD_peak,color='blue',linestyle='--')
+    pylab.title('An attempt to check the prior range')
+    pylab.title('P48 R photometry and power law fit')
+    pylab.axvline(tref_assumed)
+    #pylab.show()
+    #pdb.set_trace()
+
+    print("********** FIT WITH A POWER LAW ************")
+
+    output_mcmc = output_mcmc_power
+
+    samples = fitter_general.emcee_n_param(3, models.model_powerlaw_withref, prior_param=[prior_a, prior_n, prior_tref],
+                                           data=my_data, uncertainties=data_P48_rise['fluxerr'],
+                                           initial_conditions=[a_assumed, n_assumed, tref_assumed],
+                                           nwalkers=nwalkers, num_steps=num_steps, flatchain_path=output_mcmc + '/flatchain.txt',
+                                           already_run=already_run_mcmc_power)
+
+    best_power = fitter_general.calc_best_fit_n_param(ndim=3, model_nparam=models.model_powerlaw_withref,
+                                                      flatchain_path=output_mcmc + '/flatchain.txt',
+                                                      data=my_data, uncertainties=data_P48_rise['fluxerr'],
+                                                      winners=100,
+                                                      output_file_path=output_mcmc,
+                                                      bounds=[prior_a, prior_n, prior_tref],
+                                                      already_run_calc_all_chis=already_run_calc_all_chis_power,
+                                                      show_plots=False)
+    # print('reduced chi2 is',best[-1]/(np.shape(my_data)[0]-3))
+    # pdb.set_trace()
+    if np.shape(my_data)[0] - 3 != 0:
+        chi2_power = best_power[-1] / (np.shape(my_data)[0] - 3)
+    bests = best_power[:-1]
+    if already_plot_power == False:
+        fitter_general.plot_opt_fit_n_param(3, models.model_powerlaw_withref, bests, my_data,
+                                            flatchain_path=output_mcmc + '/flatchain.txt',
+                                            uncertainties=data_P48_rise['fluxerr'], output_file_path=output_mcmc,
+                                            xlabel=None, ylabel=None)
+
+        triangle = fitter_general.plot_2D_distributions(
+            flatchain_path=output_mcmc + '/flatchain.txt', bests=bests, title='triangle',
+            output_file_path=output_mcmc, parameters_labels=['a', 'n', 'tref'])
+
+        histos = fitter_general.plot_1D_marginalized_distribution_mini_interval(
+            flatchain_path=output_mcmc + '/flatchain.txt', bests=bests, output_pdf_file_path=output_mcmc,
+            output_txt_file_path=output_mcmc,
+            parameters_labels=['a', 'n', 'tref'], number_bins=1000)
+
+        #histos = fitter_general.plot_1D_marginalized_distribution(
+        #    flatchain_path=output_mcmc + '/flatchain.txt', bests=bests,
+        #    output_pdf_file_path=output_mcmc, output_txt_file_path=output_mcmc, parameters_labels=['a', 'n', 'tref'],
+        #    number_bins=1000)
+    print('********************************************')
+    print('when fitting whith the power law, the best fit is {0}, with sigma is {1}'.format(bests[:], np.genfromtxt(
+        output_mcmc + '/1sigma_mini.txt')[:, 2]))
+    # print('when fitting whith the power law, the best fit is {0}, with sigma is {1}'.format(bests[:-1],np.genfromtxt('tref_calculator_results_powerlaw/1sigma.txt')[:,2])
+    best_tref = bests[2]
+    print('tmin-tref={0}'.format(-bests[2] + np.min(data_P48_rise['days'])))
+    print('tbo=tpeak-tref={0}'.format(np.max(data_P48_rise['days']) - bests[2]))
+    print('the index of the power law is {0}'.format(bests[1]))
+    print('********************************************')
+
+    best_fit = models.model_powerlaw_withref(bests[0], bests[1], bests[2],
+                                             np.linspace(np.min(prior_tref), np.max(my_data[:, 0]),
+                                                         1000)).model_array()
+
+    pylab.figure()
+    pylab.plot(best_fit[:,0],best_fit[:,1],'b-')
+    pylab.plot(my_data[:, 0], my_data[:, 1],'ro')
+    ax=pylab.gca()
+    ax.axvspan(np.min(prior_tref),np.max(prior_tref), alpha=0.5, color='yellow')
+    #pylab.show()
+    #pdb.set_trace()
+
+    print('************* Summary of tref calculation ************')
+    print('exponential:')
+    print('t_ref={0}, chi2_reduced={1}'.format(best_exp[-2], chi2_exp))
+    print('power law:')
+    print('t_ref={0}, chi2_reduced={1}'.format(best_power[-2], chi2_power))
+    if np.shape(my_data)[0] - 3 != 0:
+        if chi2_exp < chi2_power:
+            print('the best fit is obtained with the exponential, i.e. tref={0}'.format(best_exp[-2]))
+            chi2_winner = chi2_exp
+            tref_winner = best_exp[-2]
+        else:
+            print('the best fit is obtained with the power law, i.e. tref={0}'.format(best_power[-2]))
+            chi2_winner = chi2_power
+            tref_winner = best_power[-2]
+
+        pylab.show()
+        return tref_winner, chi2_winner
+    else:
+        print('there is not enough data to calculate chi2/dof and return a winner')
+        pylab.show()
+    pylab.show()
+
+
 '''
 WORK IN PROGRESS
 def tref_from_P48(path_to_data, tref_assumed=None, band='r',days_rising=10):
@@ -1061,3 +1377,4 @@ def tref_from_P48(path_to_data, tref_assumed=None, band='r',days_rising=10):
         print('there is not enough data to calculate chi2/dof and return a winner')
         pylab.show()
 '''
+
